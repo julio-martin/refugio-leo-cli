@@ -11,7 +11,7 @@ import { IDog } from './dog';
 @Injectable()
 export class DogService {
 
-    private _dogUrl = '/api/dogs/dogs.json';
+    private _dogUrl = './api/dogs/dogs.json';
 
     constructor(private _http: Http) {}
 
