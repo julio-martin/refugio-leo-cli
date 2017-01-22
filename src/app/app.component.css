@@ -5,7 +5,7 @@
 }
 
 .md-primary {
-    background: #009688;
+    background: #A5C937;
     color: white;
 }
 
@@ -19,6 +19,24 @@ md-sidenav-container {
 
 md-sidenav {
     background: #FFFFFF
+}
+.header-logo {
+  height: 130px;
+}
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .form md-card {
@@ -34,4 +52,16 @@ md-card {
 .card-container {
   display: flex;
   flex-flow: row wrap;
+}
+
+.footer {
+    background: #A5C937;
+    color: white;
+}
+
+.footer-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }

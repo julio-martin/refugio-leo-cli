@@ -8,12 +8,26 @@
       </a>
     </md-nav-list>
   </md-sidenav>
+  <header>
   <md-toolbar color="primary">
     <button md-icon-button color="primary" (click)="sidenav.open()">
       <md-icon color="primary">menu</md-icon>
     </button>
-    el Refugio de Leo
-  </md-toolbar>
+    <span>el Refugio de Leo</span>
 
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+
+    <span>
+    </span>
+  </md-toolbar>
+  </header>
+  <div class="banner">
+   <img class="banner-img" src="./assets/images/banner.jpg"/>
+  </div>
+  
   <dog-list></dog-list>
+  <footer class="footer">
+    
+  </footer>
 </md-sidenav-container>
