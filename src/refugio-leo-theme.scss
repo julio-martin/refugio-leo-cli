@@ -1,0 +1,47 @@
+@import '~@angular/material/core/theming/all-theme';
+@include md-core();
+
+// Custom color like the logo, I used http://mcg.mbitson.com/ to create the palette
+$refugio-leo-green: (
+  50: #f4f9e7,
+  100: #e4efc3,
+  200: #d2e49b,
+  300: #c0d973,
+  400: #b3d155,
+  500: #a5c937,
+  600: #9dc331,
+  700: #93bc2a,
+  800: #8ab523,
+  900: #79a916,
+  A100: #f3ffdc,
+  A200: #e1ffa9,
+  A400: #cfff76,
+  A700: #c6ff5d,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: $black-87-opacity,
+    700: $black-87-opacity,
+    800: white,
+    900: white,
+    A100: $black-87-opacity,
+    A200: $black-87-opacity,
+    A400: $black-87-opacity,
+    A700: $black-87-opacity,
+  )
+);
+
+// Customizations go here:
+$app-primary: md-palette($refugio-leo-green);
+$app-accent:  md-palette($md-grey);
+$app-warn:    md-palette($md-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$app-theme: md-light-theme($app-primary, $app-accent, $app-warn);
+
+
+@include angular-material-theme($app-theme);

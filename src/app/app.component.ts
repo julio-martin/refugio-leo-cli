@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import {DogService} from './dogs/dog.service';
 
 @Component({
@@ -11,20 +12,29 @@ import {DogService} from './dogs/dog.service';
 })
 export class AppComponent {
  views: Object[] = [
+   {
+      name: "Perros en adopción",
+      description: "Adopta un amigo",
+      icon: "pets",
+      href: "/"
+    },
     {
       name: "Quienes somos",
       description: "Un poco de historia",
-      icon: "pets"
+      icon: "pets",
+      href: "nosotros"
     },
     {
       name: "Colabora",
       description: "Ayuda a nuestros peluditos",
-      icon: "pets"
+      icon: "pets",
+      href: "colabora"
     },
     {
       name: "Contacto",
       description: "Rellena el formulario",
-      icon: "pets"
+      icon: "pets",
+      href: "contacto"
     }
   ];
 }

@@ -19,7 +19,8 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "refugio-leo-theme.scss"
       ],
       "scripts": [],
       "environments": {

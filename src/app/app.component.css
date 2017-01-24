@@ -4,14 +4,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.md-primary {
-    background: #A5C937;
-    color: white;
-}
 
-.secondary {
-  color: rgba(0,0,0,0.54);
-}
 
 md-sidenav-container {
   background: rgba(0,0,0,0.03);
@@ -64,4 +57,7 @@ md-card {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+.example-fill-remaining-space {
+  flex: 1 1 auto;
 }

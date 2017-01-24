@@ -1,12 +1,3 @@
-.md-primary {
-    background: #009688;
-    color: white;
-}
-
-.secondary {
-  color: rgba(0,0,0,0.54);
-}
-
 .form md-card {
   flex-grow: 1;
 }

@@ -2,11 +2,11 @@
     <md-card *ngFor="let dog of dogs">
       <img md-card-image [alt]="dog.name" src="{{dog.image}}">
       <md-card-title>{{dog.name}}</md-card-title>
-      <md-card-content class="secondary">
+      <md-card-content>
           {{dog.description}}
       </md-card-content>
       <md-card-actions align="end">
-        <button md-button color="primary">Adoptar</button>
+        <button md-raised-button color="primary">Adoptar</button>
       </md-card-actions>
     </md-card>
   </div>
