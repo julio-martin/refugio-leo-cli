@@ -37,4 +37,22 @@ export class AppComponent {
       href: "contacto"
     }
   ];
+  headerLinks: Object[] = [
+   {
+      name: "Adopta",
+      href: "/"
+    },
+    {
+      name: "La Protectora",
+      href: "nosotros"
+    },
+    {
+      name: "Colabora",
+      href: "colabora"
+    },
+    {
+      name: "Contacto",
+      href: "contacto"
+    }
+  ];
 }

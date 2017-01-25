@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MaterialModule} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { DogModule } from './dogs/dog.module';
@@ -23,6 +24,7 @@ import { ContactComponent} from './contact.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    FlexLayoutModule.forRoot(),
     RouterModule.forRoot([
       { path: 'colabora', component: DonateComponent },
       { path: 'nosotros', component: AboutUsComponent },

@@ -1,5 +1,10 @@
 <md-sidenav-container fullscreen>
   <md-sidenav #sidenav>
+    <div class="header">
+      <div class="avatar-container">
+        <div class="image"></div>
+      </div>
+    </div>
     <md-nav-list>
       <ul *ngFor="let view of views">
       <a md-list-item [routerLink]="[view.href]" (click)='sidenav.close()'>
@@ -12,15 +17,24 @@
   </md-sidenav>
   <header>
   <md-toolbar color="primary">
-    <button md-icon-button (click)="sidenav.open()">
+    <button md-icon-button (click)="sidenav.open()" fxHide="false" fxHide.gt-sm>
       <md-icon>menu</md-icon>
     </button>
+
+      <div class="avatar-container" fxShow.gt-sm fxShow="false">
+        <div class="image"></div>
+      </div>
+    
     <span>el Refugio de Leo</span>
 
     <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>
 
-    <span>Social Icons</span>
+    <div *ngFor="let headerLink of headerLinks" fxShow.gt-sm fxShow="false">
+      <a class="header-link" [routerLink]="[headerLink.href]">
+        <span md-line>{{headerLink.name}}</span>
+      </a>
+      </div>
   </md-toolbar>
   </header>
   <div class="banner">
@@ -30,7 +44,4 @@
   </div>
   
   <router-outlet></router-outlet>
-  <footer class="footer">
-    
-  </footer>
 </md-sidenav-container>

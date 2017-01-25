@@ -1,14 +1,13 @@
-.form md-card {
-  flex-grow: 1;
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px auto 0;
+    justify-content: center;
 }
 
 md-card {
-  width: 400px;
+  width: 350px;
   box-sizing: border-box;
   margin: 16px;
-}
-
-.card-container {
-  display: flex;
-  flex-flow: row wrap;
 }

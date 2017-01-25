@@ -4,18 +4,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
-md-sidenav-container {
-  background: rgba(0,0,0,0.03);
-}
-
-md-sidenav {
-    background: #FFFFFF
-}
-.header-logo {
-  height: 130px;
-}
 .banner {
   width: 100%;
   margin: 0 auto;
@@ -32,32 +20,34 @@ md-sidenav {
   margin-right: auto
 }
 
-.form md-card {
-  flex-grow: 1;
-}
-
-md-card {
-  width: 400px;
-  box-sizing: border-box;
-  margin: 16px;
-}
-
-.card-container {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.footer {
-    background: #A5C937;
-    color: white;
-}
-
-.footer-container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .example-fill-remaining-space {
   flex: 1 1 auto;
+}
+
+.header-link {
+  margin: 10px;
+}
+
+md-sidenav .header {
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.avatar-container {
+    height: 120px;
+    padding: 2px;
+    position: relative;
+    width: 120px;
+}
+
+.avatar-container .image {
+    background-image: url(../assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
 }
