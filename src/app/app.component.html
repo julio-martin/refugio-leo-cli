@@ -32,14 +32,14 @@
 
     <div *ngFor="let headerLink of headerLinks" fxShow.gt-sm fxShow="false">
       <a class="header-link" [routerLink]="[headerLink.href]">
-        <span md-line>{{headerLink.name}}</span>
+        <button md-raised-button color="primary">{{headerLink.name}}</button>
       </a>
       </div>
   </md-toolbar>
   </header>
   <div class="banner">
     <a routerLink="/">
-   <img class="banner-img" src="./assets/images/banner.jpg"/>
+   <img class="banner-img" src="assets/images/banner.jpg"/>
     </a>
   </div>
   

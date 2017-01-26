@@ -1,12 +1,15 @@
+<h2>Perros en adopción</h2>
 <div class="card-container">
     <md-card *ngFor="let dog of dogs">
-      <img md-card-image [alt]="dog.name" src="{{dog.image}}">
       <md-card-title>{{dog.name}}</md-card-title>
+      <img md-card-image [alt]="dog.name" src="{{dog.image}}">
       <md-card-content>
           {{dog.description}}
       </md-card-content>
       <md-card-actions align="end">
+        <a [routerLink]="['/dog', dog.name]">
         <button md-raised-button color="primary">Adoptar</button>
+        </a>
       </md-card-actions>
     </md-card>
   </div>

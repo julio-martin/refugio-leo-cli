@@ -11,3 +11,7 @@ md-card {
   box-sizing: border-box;
   margin: 16px;
 }
+
+.md-card-image {
+  height: 500px;
+}

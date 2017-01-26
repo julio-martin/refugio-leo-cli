@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { DogModule } from './dogs/dog.module';
 import { DogListComponent } from './dogs/dog-list.component';
+import {DogDetailComponent} from './dogs/dog-detail.component';
 import { DonateComponent} from './donate.component';
 import { AboutUsComponent} from './about-us.component';
 import { ContactComponent} from './contact.component';

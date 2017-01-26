@@ -1,0 +1,11 @@
+<md-card class="card-detail" >
+      <md-card-title>{{pageTitle}}</md-card-title>
+      <md-card-content>
+        <div fxFlex *ngIf="dog">
+        <img md-card-image *ngIf="dog" src="{{dog.image}}" class="card-detail-image">
+         </div>
+          <div fxFlex *ngIf="dog">
+                    {{dog.description}}
+        </div>
+      </md-card-content>
+    </md-card>

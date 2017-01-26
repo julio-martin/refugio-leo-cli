@@ -18,8 +18,13 @@ export class DogService {
     getDogs() : Observable<IDog[]> {
         return this._http.get(this._dogUrl)
             .map((response: Response) => <IDog[]> response.json())
-           .do(data => console.log('All: ' + JSON.stringify(data)))
             .catch(this.handleError);
+    }
+
+    getDog(name: string): Observable<IDog> {
+        console.log('calling getDog ' + name);
+        return this.getDogs()
+            .map((dogs: IDog[]) => dogs.find(d => d.name === name));
     }
 
     private handleError(error: Response) {
