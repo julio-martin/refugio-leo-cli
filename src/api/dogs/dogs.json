@@ -1,19 +1,35 @@
 [
     {
         "name": "Duke",
+        "gender": "Macho",
+        "age": "x años",
+        "size": "Grande",
         "description": "Mestizo del 01/09/2015. Castrado y con todas las vacunas al día. Excelente comportamiento con personas, dominante con perros.",
-        "image" : "./assets/images/dogs/duke.jpg"
+        "image" : "./assets/images/dogs/duke.jpg",
+        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
     },{
         "name": "Chica",
+        "gender": "Hembra",
+        "age": "x años",
+        "size": "Grande",
         "description": "Sobre 30 Kg, excelente comportamiento. Castrada y con vacunas al día.",
-        "image" : "./assets/images/dogs/chica.jpg"
+        "image" : "./assets/images/dogs/chica.jpg",
+        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
     },{
         "name": "Zuma",
+        "gender": "Hembra",
+        "age": "8 meses",
+        "size": "Pequeño",
         "description": "Podenco. 8 meses. 12kg. Vacunas al día. Muy buen carácter criado en ambiente familiar.",
-        "image" : "./assets/images/dogs/zuma.jpg"
+        "image" : "./assets/images/dogs/zuma.jpg",
+        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
     },{
         "name": "Perla",
+        "gender": "Hembra",
+        "age": "x años",
+        "size": "Mediano",
         "description": "Mix Sharpei. Dominante con perros, con personas buen comportamiento.",
-        "image" : "./assets/images/dogs/perla.jpg"
+        "image" : "./assets/images/dogs/perla.jpg",
+        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
     }
 ]

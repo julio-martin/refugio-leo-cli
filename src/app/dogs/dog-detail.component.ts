@@ -26,7 +26,7 @@ export class DogDetailComponent implements OnInit, OnDestroy {
         this.sub = this._route.params.subscribe(
             params => {
                 let name = params['name'];
-                this.pageTitle += `: ${name}`;
+                this.pageTitle += `${name}`;
                 this.getDog(name);
         });
     }

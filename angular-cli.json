@@ -20,7 +20,8 @@
       "mobile": false,
       "styles": [
         "styles.css",
-        "refugio-leo-theme.scss"
+        "refugio-leo-theme.scss",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
       "scripts": [],
       "environments": {

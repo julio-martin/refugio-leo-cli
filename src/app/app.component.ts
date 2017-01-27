@@ -38,9 +38,13 @@ export class AppComponent {
     }
   ];
   headerLinks: Object[] = [
+    {
+      name: "Portada",
+      href: "/"
+    },
    {
       name: "Adopta",
-      href: "/"
+      href: "dogs"
     },
     {
       name: "La Protectora",

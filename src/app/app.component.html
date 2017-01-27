@@ -15,13 +15,14 @@
       </ul>
     </md-nav-list>
   </md-sidenav>
+
   <header>
   <md-toolbar color="primary">
     <button md-icon-button (click)="sidenav.open()" fxHide="false" fxHide.gt-sm>
       <md-icon>menu</md-icon>
     </button>
 
-      <div class="avatar-container" fxShow.gt-sm fxShow="false">
+      <div class="toolbar-container" fxShow.gt-sm fxShow="false">
         <div class="image"></div>
       </div>
     
@@ -37,11 +38,34 @@
       </div>
   </md-toolbar>
   </header>
-  <div class="banner">
-    <a routerLink="/">
-   <img class="banner-img" src="assets/images/banner.jpg"/>
-    </a>
-  </div>
   
   <router-outlet></router-outlet>
-</md-sidenav-container>
+<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a target="_blank" href="http://www.facebook.com/elrefugiodeleo"><i class="fa fa-facebook"></i></a>
+				<a target="_blank" href="http://www.twitter.com/elrefugiodeleo"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" href="http://www.instagram.com/elrefugiodeleo"><i class="fa fa-instagram"></i></a>
+				<a target="_blank" href="https://github.com/julio-martin/refugio-leo-cli"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a routerLink="/">Portada</a>
+					·
+					<a routerLink="dogs">Adopta</a>
+					·
+					<a routerLink="nosotros">La Protectora</a>
+					·
+					<a routerLink="colabora">Colabora</a>
+					·
+					<a routerLink="contacto">Contacto</a>
+				</p>
+
+				<p>el Refugio de Leo &copy; 2017</p>
+			</div>
+
+		</footer>
