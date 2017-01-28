@@ -10,7 +10,7 @@ md-card {
   margin: 16px;
 }
 
-card-carousel {
+.card-carousel {
   width: 50%;
   justify-content: center;
 }
