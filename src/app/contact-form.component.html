@@ -1,0 +1,58 @@
+<div class="jumbotron text-center" *ngIf="submitted">
+    <h2>Gracias por su mensaje!</h2>
+    <p>Intentaremos leerlo lo antes posible!</p>
+</div>
+<form *ngIf="!submitted" novalidate [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm)">
+    <h3>Contacto</h3>
+    <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control" id="name" placeholder="¿Como te llamamos?" formControlName="name">
+        <div *ngIf="contactForm.get('name').hasError('required') && contactForm.get('name').touched" class="alert alert-danger">
+            Debes introducir un Nombre.
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+            </span>
+            <input type="email" class="form-control" id="email" placeholder="Tu email" formControlName="email">
+
+        </div>
+        <div *ngIf="contactForm.get('email').hasError('required') && contactForm.get('email').touched" class="alert alert-danger">
+            Debes introducir un Email.
+        </div>
+        <div *ngIf="!contactForm.get('email').hasError('required') && contactForm.get('email').hasError('invalidEmailAddress') && contactForm.get('email').touched" class="alert alert-danger">
+            Debes introducir un Email válido.
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="phone">Teléfono</label>
+        <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
+            </span>
+            <input type="phone" class="form-control" id="phone" placeholder="Tu teléfono" formControlName="phone"/>
+
+        </div>
+        <div *ngIf="contactForm.get('phone').hasError('required') && contactForm.get('phone').touched" class="alert alert-danger">
+            Debes introducir un Teléfono.
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="subject">Asunto</label>
+        <input type="text" class="form-control" id="subject" placeholder="¿Por qué nos contactas?" formControlName="subject"/>
+        <div *ngIf="contactForm.get('subject').hasError('required') && contactForm.get('subject').touched" class="alert alert-danger">
+            Debes introducir un Asunto.
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea class="form-control" rows="3" id="message" placeholder="Cuéntanos!" formControlName="message"></textarea>
+        <div *ngIf="contactForm.get('message').hasError('required') && contactForm.get('message').touched" class="alert alert-danger">
+            Debes introducir un Mensaje.
+        </div>
+    </div>
+    <button type="submit" class="btn btn-default" [disabled]="!contactForm.valid">Enviar Mensaje</button>
+
+</form>

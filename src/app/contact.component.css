@@ -1,0 +1,52 @@
+md-card {
+   margin: 10px;
+}
+
+.social-media i {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    background: #ddd;
+    color: #333;
+    border-radius: 2px;
+}
+
+.social-media i:hover {
+    background: none;
+    color: #a1a1a1;
+}
+
+.social-media .facebook {
+    background: #3B5998;
+    color: #FFF;
+}
+
+.social-media .twitter {
+    background: #55ACEE;
+    color: #FFF;
+}
+
+.social-media .instagram {
+    background: #e95950;
+    color: #FFF;
+}
+
+.social-media .github {
+    background: #444444;
+    color: #FFF;
+}
+
+.logo-container {
+    overflow: hidden;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container .logo{
+    width: 350px;
+}

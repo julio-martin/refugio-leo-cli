@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MaterialModule} from '@angular/material';
@@ -15,6 +15,7 @@ import { DonateComponent} from './donate.component';
 import { AboutUsComponent} from './about-us.component';
 import { ContactComponent} from './contact.component';
 import { HomeComponent} from './home.component';
+import { ContactFormComponent} from './contact-form.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +23,13 @@ import { HomeComponent} from './home.component';
     DonateComponent,
     AboutUsComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpModule,
     CarouselModule.forRoot(),
     FlexLayoutModule.forRoot(),
