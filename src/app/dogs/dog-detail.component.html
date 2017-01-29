@@ -1,21 +1,23 @@
-<div class="card-container">
-<md-card *ngIf="dog">
-      <md-card-title>{{pageTitle}}</md-card-title>
-      <md-card-content>
-        <div fxFlex *ngIf="dog">
-        </div>
-         <p *ngIf="dog">{{dog.description}}</p>
-         <p *ngIf="dog"><strong>Name: </strong>{{dog.name}}</p>
-         <p *ngIf="dog"><strong>Sexo: </strong>{{dog.gender}}</p>
-         <p *ngIf="dog"><strong>Tamaño: </strong>{{dog.size}}</p>
-         <p *ngIf="dog"><strong>Edad: </strong>{{dog.age}}</p>
-      </md-card-content>
+<div class="container">
+  <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex>
+    <md-card  *ngIf="dog" fxFlex="30">
+      <h3>{{pageTitle}}</h3>
+        <p>{{dog.description}}</p>
+        <p><strong>Nombre: </strong>{{dog.name}}</p>
+        <p><strong>Sexo: </strong>{{dog.gender}}</p>
+        <p><strong>Tamaño: </strong>{{dog.size}}</p>
+        <p><strong>Edad: </strong>{{dog.age}}</p>
+      <div class="logo-container" fxShow.gt-sm fxShow="false">
+                <img src="assets/images/logo.png" class="logo">
+            </div>
     </md-card>
-    <md-card class="card-carousel" *ngIf="dog">
-      <carousel *ngIf="dog">
-      <slide *ngFor="let mypicture of dog.slides">
-        <img src="{{mypicture}}">
-      </slide>
-</carousel>
+
+    <md-card *ngIf="dog" fxFlex="60">
+      <carousel>
+          <slide *ngFor="let mypicture of dog.slides">
+            <img src="{{mypicture}}">
+          </slide>
+        </carousel>
     </md-card>
+  </div>
 </div>

@@ -13,7 +13,7 @@ import {DogService} from './dog.service';
 })
 export class DogDetailComponent implements OnInit, OnDestroy {
     dog: IDog;
-    pageTitle: string = 'Quiero adoptar a ';
+    pageTitle: string = '';
     errorMessage: string;
     private sub: Subscription;
 

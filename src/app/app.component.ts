@@ -13,14 +13,20 @@ import {DogService} from './dogs/dog.service';
 export class AppComponent {
  views: Object[] = [
    {
-      name: "Perros en adopción",
-      description: "Adopta un amigo",
+      name: "Portada",
+      description: "",
       icon: "pets",
       href: "/"
     },
+   {
+      name: "Perros en adopción",
+      description: "Adopta un amigo",
+      icon: "pets",
+      href: "dogs"
+    },
     {
       name: "Quienes somos",
-      description: "Un poco de historia",
+      description: "El Refugio",
       icon: "pets",
       href: "nosotros"
     },
@@ -32,7 +38,7 @@ export class AppComponent {
     },
     {
       name: "Contacto",
-      description: "Rellena el formulario",
+      description: "¿Hablamos?",
       icon: "pets",
       href: "contacto"
     }
@@ -47,7 +53,7 @@ export class AppComponent {
       href: "dogs"
     },
     {
-      name: "La Protectora",
+      name: "El Refugio",
       href: "nosotros"
     },
     {

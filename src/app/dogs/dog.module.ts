@@ -3,6 +3,7 @@ import { MaterialModule } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {DogListComponent} from './dog-list.component';
 import {DogDetailComponent} from './dog-detail.component';
@@ -15,6 +16,7 @@ import { DogService } from './dog.service';
         ],
     imports: [
         BrowserModule,
+        FlexLayoutModule.forRoot(),
         CarouselModule.forRoot(),
             MaterialModule.forRoot(),
              RouterModule.forChild([
