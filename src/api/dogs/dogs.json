@@ -6,7 +6,8 @@
         "size": "Grande",
         "description": "Mestizo del 01/09/2015. Castrado y con todas las vacunas al día. Excelente comportamiento con personas, dominante con perros.",
         "image" : "duke",
-        "slides": ["duke4","duke2","duke3","duke"]
+        "slides": ["duke4","duke2","duke3","duke"],
+        "adopted": false
     },{
         "name": "Chica",
         "gender": "Hembra",
@@ -14,7 +15,8 @@
         "size": "Grande",
         "description": "Sobre 30 Kg, excelente comportamiento. Castrada y con vacunas al día.",
         "image" : "chica",
-        "slides": ["chica2","chica","chica3","chica4"]
+        "slides": ["chica2","chica","chica3","chica4"],
+        "adopted": false
     },{
         "name": "Zuma",
         "gender": "Hembra",
@@ -22,7 +24,8 @@
         "size": "Pequeño",
         "description": "Podenco. 8 meses. 12kg. Vacunas al día. Muy buen carácter criado en ambiente familiar.",
         "image" : "zuma",
-        "slides": ["zuma","zuma2","zuma3"]
+        "slides": ["zuma","zuma2","zuma3"],
+        "adopted": false
     },{
         "name": "Perla",
         "gender": "Hembra",
@@ -30,7 +33,8 @@
         "size": "Mediano",
         "description": "Mix Sharpei. Dominante con perros, con personas buen comportamiento.",
         "image" : "perla",
-        "slides": ["perla","perla2"]
+        "slides": ["perla","perla2"],
+        "adopted": false
     },{
         "name": "Olivera",
         "gender": "Hembra",
@@ -38,7 +42,8 @@
         "size": "Mediano",
         "description": "Podenca. Vacunas al día. No castrada. Tiene 13 años, es la abuelita del Refugio, ¿queréis darle un hogar calentito donde pasar sus últimos años de vida?",
         "image" : "olivera",
-        "slides": ["olivera","olivera2"]
+        "slides": ["olivera","olivera2"],
+        "adopted": false
     },{
         "name": "Aimé",
         "gender": "Macho",
@@ -46,7 +51,8 @@
         "size": "Mediano",
         "description": "Buen comportamiento con perros y niños. 7 años de edad. Castrado y con todas las vacunas al día.",
         "image" : "aime",
-        "slides": ["aime","aime2","aime3"]
+        "slides": ["aime","aime2","aime3"],
+        "adopted": false
     },{
         "name": "Maya",
         "gender": "Hembra",
@@ -54,7 +60,8 @@
         "size": "Mediano",
         "description": "Mix de labrador. Sobre 15 kg. Castrada y con vacunas al día.",
         "image" : "maya",
-        "slides": ["maya","maya2"]
+        "slides": ["maya","maya2"],
+        "adopted": false
     },{
         "name": "Lassie",
         "gender": "Hembra",
@@ -62,7 +69,8 @@
         "size": "Mediano",
         "description": "Collie de 8 meses. Muy buen carácter,típico de un cachorro.",
         "image" : "lassie",
-        "slides": ["lassie","lassie2","lassie3","lassie4"]
+        "slides": ["lassie","lassie2","lassie3","lassie4"],
+        "adopted": false
     },{
         "name": "Hope",
         "gender": "Hembra",
@@ -70,7 +78,8 @@
         "size": "Mediano",
         "description": "Acaba de tener cachorros y está en una casa de acogida.",
         "image" : "hope",
-        "slides": ["hope","hope2","hope3"]
+        "slides": ["hope","hope2","hope3"],
+        "adopted": false
     },{
         "name": "Fito",
         "gender": "Macho",
@@ -78,7 +87,8 @@
         "size": "Grande",
         "description": "Mix de galgo. 12kg. Buen comportamiento, muy tranquilo y cariñoso.",
         "image" : "fito",
-        "slides": ["fito","fito2","fito3"]
+        "slides": ["fito","fito2","fito3"],
+        "adopted": false
     },{
         "name": "Arianne",
         "gender": "Hembra",
@@ -86,7 +96,8 @@
         "size": "Grande",
         "description": "",
         "image" : "arianne",
-        "slides": ["arianne3","arianne","arianne2"]
+        "slides": ["arianne3","arianne","arianne2"],
+        "adopted": false
     },{
         "name": "Arón",
         "gender": "Macho",
@@ -94,7 +105,8 @@
         "size": "Mediano",
         "description": "",
         "image" : "aron",
-        "slides": ["aron"]
+        "slides": ["aron"],
+        "adopted": false
     }
     
 ]

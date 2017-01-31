@@ -9,10 +9,10 @@ TODO List
 - SEO and sitemap
 - Google Analytics
 - Add formspree (https://formspree.io) to contact form
-- Use 3 banner images per device
-- Align vertically carousel images
+- Center vertically carousel images
 - Filter Cards by size, gender and age
 - Show cards randomly
+- Prerender (Angular 2 Universal???)
 
 Technologies
 ===============

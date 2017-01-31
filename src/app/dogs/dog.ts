@@ -3,4 +3,5 @@ export interface IDog {
     description: string;
     image: string;
     slides: string[];
+    adopted: boolean;
 }
