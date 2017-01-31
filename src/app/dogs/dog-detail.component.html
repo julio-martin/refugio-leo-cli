@@ -14,8 +14,8 @@
 
     <md-card *ngIf="dog" fxFlex="60">
       <carousel>
-          <slide *ngFor="let mypicture of dog.slides">
-            <img src="{{mypicture}}">
+          <slide *ngFor="let slide of dog.slides">
+            <img src="./assets/images/dogs/{{dog.image}}/{{slide}}.jpg">
           </slide>
         </carousel>
     </md-card>

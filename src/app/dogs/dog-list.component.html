@@ -5,7 +5,7 @@
     <md-card *ngFor="let dog of dogs">
       <md-card-title>{{dog.name}}</md-card-title>
       <div class="md-card-image">
-      <img md-card-image [alt]="dog.name" src="{{dog.image}}">
+      <img md-card-image [alt]="dog.name" src="./assets/images/dogs/{{dog.image}}/{{dog.slides[0]}}.jpg">
       </div>
       <div class="md-card-description">
       <md-card-content>

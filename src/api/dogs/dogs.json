@@ -2,34 +2,99 @@
     {
         "name": "Duke",
         "gender": "Macho",
-        "age": "x años",
+        "age": "año y medio",
         "size": "Grande",
         "description": "Mestizo del 01/09/2015. Castrado y con todas las vacunas al día. Excelente comportamiento con personas, dominante con perros.",
-        "image" : "./assets/images/dogs/duke.jpg",
-        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
+        "image" : "duke",
+        "slides": ["duke4","duke2","duke3","duke"]
     },{
         "name": "Chica",
         "gender": "Hembra",
-        "age": "x años",
+        "age": "-",
         "size": "Grande",
         "description": "Sobre 30 Kg, excelente comportamiento. Castrada y con vacunas al día.",
-        "image" : "./assets/images/dogs/chica.jpg",
-        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
+        "image" : "chica",
+        "slides": ["chica2","chica","chica3","chica4"]
     },{
         "name": "Zuma",
         "gender": "Hembra",
         "age": "8 meses",
         "size": "Pequeño",
         "description": "Podenco. 8 meses. 12kg. Vacunas al día. Muy buen carácter criado en ambiente familiar.",
-        "image" : "./assets/images/dogs/zuma.jpg",
-        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
+        "image" : "zuma",
+        "slides": ["zuma","zuma2","zuma3"]
     },{
         "name": "Perla",
         "gender": "Hembra",
-        "age": "x años",
+        "age": "-",
         "size": "Mediano",
         "description": "Mix Sharpei. Dominante con perros, con personas buen comportamiento.",
-        "image" : "./assets/images/dogs/perla.jpg",
-        "slides": ["./assets/images/dogs/duke.jpg","./assets/images/dogs/chica.jpg","./assets/images/dogs/zuma.jpg"]
+        "image" : "perla",
+        "slides": ["perla","perla2"]
+    },{
+        "name": "Olivera",
+        "gender": "Hembra",
+        "age": "13 años",
+        "size": "Mediano",
+        "description": "Podenca. Vacunas al día. No castrada. Tiene 13 años, es la abuelita del Refugio, ¿queréis darle un hogar calentito donde pasar sus últimos años de vida?",
+        "image" : "olivera",
+        "slides": ["olivera","olivera2"]
+    },{
+        "name": "Aimé",
+        "gender": "Macho",
+        "age": "7 años",
+        "size": "Mediano",
+        "description": "Buen comportamiento con perros y niños. 7 años de edad. Castrado y con todas las vacunas al día.",
+        "image" : "aime",
+        "slides": ["aime","aime2","aime3"]
+    },{
+        "name": "Maya",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Mediano",
+        "description": "Mix de labrador. Sobre 15 kg. Castrada y con vacunas al día.",
+        "image" : "maya",
+        "slides": ["maya","maya2"]
+    },{
+        "name": "Lassie",
+        "gender": "Hembra",
+        "age": "8 meses",
+        "size": "Mediano",
+        "description": "Collie de 8 meses. Muy buen carácter,típico de un cachorro.",
+        "image" : "lassie",
+        "slides": ["lassie","lassie2","lassie3","lassie4"]
+    },{
+        "name": "Hope",
+        "gender": "Hembra",
+        "age": "1 año",
+        "size": "Mediano",
+        "description": "Acaba de tener cachorros y está en una casa de acogida.",
+        "image" : "hope",
+        "slides": ["hope","hope2","hope3"]
+    },{
+        "name": "Fito",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Grande",
+        "description": "Mix de galgo. 12kg. Buen comportamiento, muy tranquilo y cariñoso.",
+        "image" : "fito",
+        "slides": ["fito","fito2","fito3"]
+    },{
+        "name": "Arianne",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Grande",
+        "description": "",
+        "image" : "arianne",
+        "slides": ["arianne3","arianne","arianne2"]
+    },{
+        "name": "Arón",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Mediano",
+        "description": "",
+        "image" : "aron",
+        "slides": ["aron"]
     }
+    
 ]

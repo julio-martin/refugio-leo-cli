@@ -14,9 +14,9 @@ md-card {
 
 div.md-card-image {
   padding-top: 10px;
-  height: 262.5px;
+  height: 350px;
 }
 
 div.md-card-description {
-  height: 70px;
+  height: 100px;
 }
