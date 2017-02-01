@@ -43,6 +43,9 @@ import { ContactFormComponent} from './contact-form.component';
     DogModule,
     MaterialModule.forRoot()
   ],
+  exports:[
+        ContactComponent
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

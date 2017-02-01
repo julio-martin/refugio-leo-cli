@@ -37,7 +37,7 @@ export class DogDetailComponent implements OnInit, OnDestroy {
 
     getDog(name: string) {
         this._dogService.getDog(name).subscribe(
-            dog => {console.log(dog.name);this.dog = dog},
+            dog => {this.dog = dog},
             error => this.errorMessage = <any>error);
     }
 

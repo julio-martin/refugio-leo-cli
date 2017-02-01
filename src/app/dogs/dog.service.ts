@@ -22,7 +22,6 @@ export class DogService {
     }
 
     getDog(name: string): Observable<IDog> {
-        console.log('calling getDog ' + name);
         return this.getDogs()
             .map((dogs: IDog[]) => dogs.find(d => d.name === name));
     }

@@ -8,11 +8,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {DogListComponent} from './dog-list.component';
 import {DogDetailComponent} from './dog-detail.component';
 import { DogService } from './dog.service';
+import { ContactComponent} from '../contact.component';
 
 @NgModule({
   declarations: [ 
         DogListComponent,
-        DogDetailComponent 
+        DogDetailComponent,
         ],
     imports: [
         BrowserModule,
@@ -23,6 +24,8 @@ import { DogService } from './dog.service';
             {path: 'dogs', component: DogListComponent},
             {path:'dog/:name', 
                 component: DogDetailComponent},
+                {path:'contacto/:dog', 
+                component: ContactComponent},
         ])
         ],
     exports:[

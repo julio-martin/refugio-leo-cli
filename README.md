@@ -13,6 +13,10 @@ TODO List
 - Filter Cards by size, gender and age
 - Show cards randomly
 - Prerender (Angular 2 Universal???)
+- Navigation between dog-details
+- Share dog-details to social media
+- Internationalization (https://angular.io/docs/ts/latest/cookbook/i18n.html)
+- Any awesome idea :)
 
 Technologies
 ===============

@@ -7,6 +7,9 @@
         <p><strong>Sexo: </strong>{{dog.gender}}</p>
         <p><strong>Tamaño: </strong>{{dog.size}}</p>
         <p><strong>Edad: </strong>{{dog.age}}</p>
+         <a [routerLink]="['/contacto', dog.name]">
+        <button md-raised-button class="adopta" color="primary">Quiero adoptarl@!</button>
+        </a>
       <div class="logo-container" fxShow.gt-sm fxShow="false">
                 <img src="assets/images/logo.png" class="logo">
             </div>
