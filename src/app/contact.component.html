@@ -1,22 +1,22 @@
 <div class="container">
 
-    <h2>¿Hablamos?</h2>
-    <p>Puedes contactarnos a través de nuestro formulario, por email o por cualquiera de nuestras redes sociales.</p>
+    <h2>{{ 'CONTACT.TITLE' | translate }}</h2>
+    <p>{{ 'CONTACT.SUBTITLE' | translate }}</p>
 
     <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex>
         <md-card fxFlex="45" fxFlexOrder="2" fxFlexOrder.gt-sm="1">
             <contact-form [dog]='dog'></contact-form>
         </md-card>
         <md-card fxFlex="55" fxFlexOrder="1" fxFlexOrder.gt-sm="2" class="social-media">
-            <h3>Redes Sociales</h3>
-            <p>En nuestras Redes Sociales podrás seguir el día a día del refugio.</p>
+            <h3>{{ 'CONTACT.SOCIALTITLE' | translate }}</h3>
+            <p>{{ 'CONTACT.SOCIALDESCRIPTION' | translate }}</p>
             <div class="">
                 <a target="_blank" href="http://www.facebook.com/elrefugiodeleo"><i class="fa fa-facebook facebook"></i></a>
                 <a target="_blank" href="http://www.twitter.com/elrefugiodeleo"><i class="fa fa-twitter twitter"></i></a>
                 <a target="_blank" href="http://www.instagram.com/elrefugiodeleo"><i class="fa fa-instagram instagram"></i></a>
             </div>
             <div class="logo-container" fxShow.gt-sm fxShow="false">
-                <img src="assets/images/logo.png" class="logo" alt="Logo de El Refugio de Leo">
+                <img src="assets/images/logo.png" class="logo" alt="logo Refugio de Leo">
             </div>
         </md-card>
     </div>

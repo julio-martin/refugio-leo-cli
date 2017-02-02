@@ -1,58 +1,58 @@
 <div class="jumbotron text-center" *ngIf="submitted">
-    <h2>Gracias por su mensaje!</h2>
-    <p>Intentaremos leerlo lo antes posible!</p>
+    <h2>{{ 'CONTACTFORM.SUCCESS.TITLE' | translate }}</h2>
+    <p>{{ 'CONTACTFORM.SUCCESS.SUBTITLE' | translate }}</p>
 </div>
 <form *ngIf="!submitted" novalidate [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm)">
-    <h3>Contacto</h3>
+    <h3>{{ 'CONTACTFORM.TITLE' | translate }}</h3>
     <div class="form-group">
-        <label for="name">Nombre</label>
-        <input type="text" class="form-control" id="name" placeholder="¿Como te llamamos?" formControlName="name">
+        <label for="name">{{ 'CONTACTFORM.NAME.LABEL' | translate }}</label>
+        <input type="text" class="form-control" id="name" placeholder="{{ 'CONTACTFORM.NAME.PLACEHOLDER' | translate }}" formControlName="name">
         <div *ngIf="contactForm.get('name').hasError('required') && contactForm.get('name').touched" class="alert alert-danger">
-            Debes introducir un Nombre.
+           {{ 'CONTACTFORM.NAME.ERROR' | translate }}
         </div>
     </div>
     <div class="form-group">
-        <label for="email">Email</label>
+        <label for="email">{{ 'CONTACTFORM.EMAIL.LABEL' | translate }}</label>
         <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
             </span>
-            <input type="email" class="form-control" id="email" placeholder="Tu email" formControlName="email">
+            <input type="email" class="form-control" id="email" placeholder="{{ 'CONTACTFORM.EMAIL.PLACEHOLDER' | translate }}" formControlName="email">
 
         </div>
         <div *ngIf="contactForm.get('email').hasError('required') && contactForm.get('email').touched" class="alert alert-danger">
-            Debes introducir un Email.
+           {{ 'CONTACTFORM.EMAIL.ERROR' | translate }}
         </div>
         <div *ngIf="!contactForm.get('email').hasError('required') && contactForm.get('email').hasError('invalidEmailAddress') && contactForm.get('email').touched" class="alert alert-danger">
-            Debes introducir un Email válido.
+            {{ 'CONTACTFORM.EMAIL.INVALID' | translate }}
         </div>
     </div>
     <div class="form-group">
-        <label for="phone">Teléfono</label>
+        <label for="phone">{{ 'CONTACTFORM.PHONE.LABEL' | translate }}</label>
         <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
             </span>
-            <input type="phone" class="form-control" id="phone" placeholder="Tu teléfono" formControlName="phone"/>
+            <input type="tel" class="form-control" id="phone" placeholder="{{ 'CONTACTFORM.PHONE.PLACEHOLDER' | translate }}" formControlName="phone"/>
 
         </div>
         <div *ngIf="contactForm.get('phone').hasError('required') && contactForm.get('phone').touched" class="alert alert-danger">
-            Debes introducir un Teléfono.
+            {{ 'CONTACTFORM.PHONE.ERROR' | translate }}
         </div>
     </div>
     <div class="form-group">
-        <label for="subject">Asunto</label>
-        <input type="text" class="form-control" id="subject" placeholder="¿Por qué nos contactas?" formControlName="subject"/>
+        <label for="subject">{{ 'CONTACTFORM.SUBJECT.LABEL' | translate }}</label>
+        <input type="text" class="form-control" id="subject" placeholder="{{ 'CONTACTFORM.SUBJECT.PLACEHOLDER' | translate }}" formControlName="subject"/>
         <div *ngIf="contactForm.get('subject').hasError('required') && contactForm.get('subject').touched" class="alert alert-danger">
-            Debes introducir un Asunto.
+            {{ 'CONTACTFORM.SUBJECT.ERROR' | translate }}
         </div>
     </div>
 
     <div class="form-group">
-        <label for="message">Mensaje</label>
-        <textarea class="form-control" rows="3" id="message" placeholder="Cuéntanos!" formControlName="message"></textarea>
+        <label for="message"> {{ 'CONTACTFORM.MESSAGE.LABEL' | translate }}</label>
+        <textarea class="form-control" rows="3" id="message" placeholder=" {{ 'CONTACTFORM.MESSAGE.PLACEHOLDER' | translate }}" formControlName="message"></textarea>
         <div *ngIf="contactForm.get('message').hasError('required') && contactForm.get('message').touched" class="alert alert-danger">
-            Debes introducir un Mensaje.
+             {{ 'CONTACTFORM.MESSAGE.ERROR' | translate }}
         </div>
     </div>
-    <button type="submit" class="btn btn-default" [disabled]="!contactForm.valid">Enviar Mensaje</button>
+    <button type="submit" class="btn btn-default" [disabled]="!contactForm.valid">{{ 'CONTACTFORM.BUTTON' | translate }}</button>
 
 </form>
