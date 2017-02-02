@@ -15,7 +15,7 @@ TODO List
 - Prerender (Angular 2 Universal???)
 - Navigation between dog-details
 - Share dog-details to social media
-- Internationalization (https://angular.io/docs/ts/latest/cookbook/i18n.html)
+- Internationalization (https://github.com/ocombe/ng2-translate)
 - Any awesome idea :)
 
 Technologies

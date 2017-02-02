@@ -15,7 +15,7 @@
       <md-card-actions align="end">
         <div *ngIf="!dog.adopted">
         <a [routerLink]="['/dog', dog.name]">
-        <button md-raised-button color="primary">Adoptar</button>
+        <button md-raised-button color="primary">+Info</button>
         </a>
         </div>
         <div *ngIf="dog.adopted">
