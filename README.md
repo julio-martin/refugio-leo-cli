@@ -15,7 +15,6 @@ TODO List
 - Prerender (Angular 2 Universal???)
 - Navigation between dog-details
 - Share dog-details to social media
-- Internationalization (https://github.com/ocombe/ng2-translate)
 - Any awesome idea :)
 
 Technologies
@@ -25,6 +24,7 @@ Technologies
 - Angular CLI
 - Angular Flex Layout
 - Bootstrap
+- ng2-translate (Internationalization)
 
 About me
 ===============
