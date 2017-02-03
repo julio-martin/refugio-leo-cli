@@ -8,9 +8,9 @@
     <md-nav-list>
       <ul *ngFor="let view of views">
       <a md-list-item [routerLink]="[view.href]" (click)='sidenav.close()'>
-        <md-icon md-list-icon>{{view.icon}}</md-icon>
-        <span md-line>{{view.name}}</span>
-        <span md-line class="secondary">{{view.description}}</span>
+        <md-icon md-list-icon>{{view.icon | translate}}</md-icon>
+        <span md-line>{{view.name | translate}}</span>
+        <span md-line class="secondary">{{view.description | translate}}</span>
       </a>
       </ul>
     </md-nav-list>
@@ -33,9 +33,21 @@
 
     <div *ngFor="let headerLink of headerLinks" fxShow.gt-sm fxShow="false">
       <a class="header-link" [routerLink]="[headerLink.href]">
-        <button md-raised-button color="primary">{{headerLink.name}}</button>
+        <button md-raised-button color="primary">{{headerLink.name | translate}}</button>
       </a>
       </div>
+       <md-menu #languageMenu="mdMenu">
+
+        <button md-menu-item  *ngFor="let language of languages"  (click)="changeLanguage(translate, language)"> 
+         <img class="flag flag-{{language}}"/>
+        </button>
+      </md-menu>
+      <button md-raised-button color="primary" [mdMenuTriggerFor]="languageMenu">
+        <img class="flag flag-{{translate.currentLang}}"/>
+      </button>
+     <!--  <button md-icon-button color="primary" [mdMenuTriggerFor]="languageMenu">
+          <md-icon svgIcon="assets/images/flags/{{translate.currentLang}}.svg"></md-icon>
+      </button>-->
   </md-toolbar>
   </header>
   
@@ -54,15 +66,15 @@
 			<div class="footer-left">
 
 				<p class="footer-links">
-					<a routerLink="/">Portada</a>
+					<a routerLink="/">{{ 'FOOTER.MAIN' | translate }}</a>
 					·
-					<a routerLink="dogs">Adopta</a>
+					<a routerLink="dogs">{{ 'FOOTER.DOGS' | translate }}</a>
 					·
-					<a routerLink="nosotros">El Refugio</a>
+					<a routerLink="nosotros">{{ 'FOOTER.ABOUTUS' | translate }}</a>
 					·
-					<a routerLink="colabora">Colabora</a>
+					<a routerLink="colabora">{{ 'FOOTER.HELPUS' | translate }}</a>
 					·
-					<a routerLink="contacto">Contacto</a>
+					<a routerLink="contacto">{{ 'FOOTER.CONTACT' | translate }}</a>
 				</p>
 
 				<p>el Refugio de Leo &copy; 2017</p>

@@ -1,0 +1,105 @@
+{
+  "FOOTER": {
+    "MAIN": "Portada",
+    "DOGS": "Adopta",
+    "ABOUTUS": "El Refugio",
+    "HELPUS": "Colabora",
+    "CONTACT": "Contacto"
+  },
+  "HEADER": {
+    "MAIN": "Portada",
+    "DOGS": "Adopta",
+    "ABOUTUS": "El Refugio",
+    "HELPUS": "Colabora",
+    "CONTACT": "Contacto"
+  },
+  "SIDENAV": {
+      "MAIN": {
+          "TITLE": "Portada",
+          "DESCRIPTION": ""
+      },
+      "DOGS": {
+          "TITLE": "Perros en adopción",
+          "DESCRIPTION": "Adopta un amigo"
+      },
+      "ABOUTUS": {
+          "TITLE": "Quienes somos",
+          "DESCRIPTION": "el Refugio"
+      },
+      "HELPUS": {
+          "TITLE": "Colabora",
+          "DESCRIPTION": "Ayuda a nuestros peluditos"
+      },
+      "CONTACT": {
+          "TITLE": "Contacto",
+          "DESCRIPTION": "¿Hablamos?"
+      }
+  },
+  "CONTACT" : {
+    "TITLE": "¿Hablamos?",
+    "SUBTITLE" : "Puedes contactarnos a través de nuestro formulario, por email o por cualquiera de nuestras redes sociales.",
+    "SOCIALTITLE": "Redes Sociales",
+    "SOCIALDESCRIPTION": "En nuestras Redes Sociales podrás seguir el día a día del refugio."
+  },
+  "CONTACTFORM": {
+    "TITLE" : "Formulario de Contacto",
+    "BUTTON": "Enviar Mensaje",
+    "NAME": {
+      "LABEL" : "Nombre",
+      "PLACEHOLDER": "¿Cuál es tu nombre?",
+      "ERROR": "Debe introducir un Nombre."
+    },
+    "EMAIL": {
+      "LABEL" : "Email",
+      "PLACEHOLDER": "Tu Email",
+      "ERROR": "Debe introducir un Email.",
+      "INVALID": "Debe introducir un Email válido."
+    },
+    "PHONE": {
+      "LABEL" : "Teléfono",
+      "PLACEHOLDER": "Tu teléfono",
+      "ERROR": "Debe introducir un Teléfono."
+    },
+    "SUBJECT": {
+      "LABEL" : "Asunto",
+      "PLACEHOLDER": "¿Por qué nos contactas?",
+      "ERROR": "Debe introducir un Asunto."
+    },
+    "MESSAGE": {
+      "LABEL" : "Mensaje",
+      "PLACEHOLDER": "Cuéntanos!",
+      "ERROR": "Debe introducir un Mensaje."
+    },
+    "SUCCESS" : {
+      "TITLE" : "Gracias por su mensaje!",
+      "SUBTITLE": "Intentaremos leerlo lo antes posible!"
+    }
+  },
+  "HELPUS" : {
+    "TITLE": "Colabora",
+    "DONATE" : {
+      "TITLE" : "Haz un Donativo",
+      "MESSAGE": "Puedes hacer un donativo en:"
+    },
+    "TEAMING" : {
+      "TITLE" : "Hazte miembro de nuestro grupo de Teaming",
+      "MESSAGE": "Teaming de el Refugio de Leo"
+    },
+    "RECYCLE" : {
+      "TITLE" : "Trae lo que no uses",
+      "MESSAGE": "Mantas, toallas, cojines, colchones, cualquier cosa de este tipo nos puede venir muy bien :)"
+    },
+    "SHELTER" : {
+      "TITLE" : "Hazte casa de acogida",
+      "MESSAGE": "Acoge en casa un peludito mientras le encontramos familia, será mucho más feliz y su adaptación a la nueva familia será mucho mas rápida.",
+      "LINK" : "Contacta con nosotros!"
+    },
+    "ADOPT" : {
+      "TITLE" : "Adopta!",
+      "MESSAGE": "Es la mejor manera de ayudarnos... encontrar una familia para nuestros peludos."
+    }
+  },
+  "DOGS" : {
+    "TITLE": "Perros en adopción"
+  }
+}

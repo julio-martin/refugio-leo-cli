@@ -1,0 +1,103 @@
+{
+  "FOOTER": {
+    "MAIN": "Main",
+    "DOGS": "Our Dogs",
+    "ABOUTUS": "About Us",
+    "HELPUS": "Help Us",
+    "CONTACT": "Contact"
+  },
+  "HEADER": {
+    "MAIN": "Main",
+    "DOGS": "Our Dogs",
+    "ABOUTUS": "About Us",
+    "HELPUS": "Help Us",
+    "CONTACT": "Contact"
+  },
+  "SIDENAV": {
+      "MAIN": {
+          "TITLE": "Main",
+          "DESCRIPTION": ""
+      },
+      "DOGS": {
+          "TITLE": "Our Dogs",
+          "DESCRIPTION": "Adopt your best friend"
+      },
+      "ABOUTUS": {
+          "TITLE": "About us",
+          "DESCRIPTION": "el Refugio"
+      },
+      "HELPUS": {
+          "TITLE": "Help us",
+          "DESCRIPTION": "Help our dogs"
+      },
+      "CONTACT": {
+          "TITLE": "Contact",
+          "DESCRIPTION": "Follow us"
+      }
+  },
+  "CONTACT" : {
+    "TITLE": "Contact?",
+    "SUBTITLE" : "You can contact us by Social Media or our contact form.",
+    "SOCIALTITLE": "Social Media",
+    "SOCIALDESCRIPTION": "You can know our day-to-day work in our Social Media accounts"
+  },
+  "CONTACTFORM": {
+    "TITLE" : "Contact Form",
+    "BUTTON": "Submit",
+    "NAME": {
+      "LABEL" : "Name",
+      "PLACEHOLDER": "What's your name?",
+      "ERROR": "Name is required."
+    },
+    "EMAIL": {
+      "LABEL" : "Email",
+      "PLACEHOLDER": "Your Email",
+      "ERROR": "Email is required.",
+      "INVALID": "You should introduce a valid Email."
+    },
+    "PHONE": {
+      "LABEL" : "Phone Number",
+      "PLACEHOLDER": "Your Phone Number",
+      "ERROR": "Phone Number is required."
+    },
+    "SUBJECT": {
+      "LABEL" : "Subject",
+      "PLACEHOLDER": "Why do you want to contact us?",
+      "ERROR": "Debe introducir un Asunto."
+    },
+    "MESSAGE": {
+      "LABEL" : "Message",
+      "PLACEHOLDER": "Let us know!",
+      "ERROR": "Message is required."
+    },
+    "SUCCESS" : {
+      "TITLE" : "Thanks for your message!",
+      "SUBTITLE": "We´ll try to contact you asap!"
+    }
+  },
+  "HELPUS" : {
+    "TITLE": "Help Us",
+    "DONATE" : {
+      "TITLE" : "Donate!",
+      "MESSAGE": "You can donate to:"
+    },
+    "TEAMING" : {
+      "TITLE" : "You can join our Teaming Group",
+      "MESSAGE": "Teaming of el Refugio de Leo"
+    },
+    "RECYCLE" : {
+      "TITLE" : "Bring what you don't need",
+      "MESSAGE": "Blanquets, towels, cushions, mattresses, we can reuse whatever similar thing as well :)"
+    },
+    "SHELTER" : {
+      "TITLE" : "You can shelter a dog",
+      "MESSAGE": "Shelter at home one of our dogs while we find a family for them, it will be very happy and it will adapt to its new family very soon.",
+      "LINK" : "Contact with us!"
+    },
+    "ADOPT" : {
+      "TITLE" : "Adopt!",
+      "MESSAGE": "That's the best thing that can happen :)"
+    }
+  }
+
+}

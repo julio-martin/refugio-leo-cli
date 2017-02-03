@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component,ChangeDetectionStrategy } from '@angular/core';
 
 import {DogService} from './dogs/dog.service';
+import {TranslateService} from 'ng2-translate';
 
 @Component({
   selector: 'app-root',
@@ -11,57 +12,75 @@ import {DogService} from './dogs/dog.service';
     ]
 })
 export class AppComponent {
+
+    languages: string[] = ["es", "en"];
+
+    constructor(private translate: TranslateService) {
+        translate.addLangs(this.languages);
+        translate.setDefaultLang('es');
+
+        let browserLang: string = this.translate.getBrowserLang();
+        console.log("BROWSERLANG:" + browserLang);
+        translate.use(browserLang.match(/en|es/) ? browserLang : 'es');
+
+    }
+
+  public changeLanguage(translate: TranslateService, language : any) {
+      console.log("SELECTED LANGUAGE:" + language);
+      translate.use(language);
+  }
+
  views: Object[] = [
    {
-      name: "Portada",
-      description: "",
+      name: "SIDENAV.MAIN.TITLE",
+      description: "SIDENAV.MAIN.DESCRIPTION",
       icon: "pets",
       href: "/"
     },
    {
-      name: "Perros en adopción",
-      description: "Adopta un amigo",
+      name: "SIDENAV.DOGS.TITLE",
+      description: "SIDENAV.DOGS.DESCRIPTION",
       icon: "pets",
       href: "dogs"
     },
     {
-      name: "Quienes somos",
-      description: "El Refugio",
+      name: "SIDENAV.ABOUTUS.TITLE",
+      description: "SIDENAV.ABOUTUS.DESCRIPTION",
       icon: "pets",
       href: "nosotros"
     },
     {
-      name: "Colabora",
-      description: "Ayuda a nuestros peluditos",
+      name: "SIDENAV.HELPUS.TITLE",
+      description: "SIDENAV.HELPUS.DESCRIPTION",
       icon: "pets",
       href: "colabora"
     },
     {
-      name: "Contacto",
-      description: "¿Hablamos?",
+      name: "SIDENAV.CONTACT.TITLE",
+      description: "SIDENAV.CONTACT.DESCRIPTION",
       icon: "pets",
       href: "contacto"
     }
   ];
   headerLinks: Object[] = [
     {
-      name: "Portada",
+      name: "HEADER.MAIN",
       href: "/"
     },
    {
-      name: "Adopta",
+      name: "HEADER.DOGS",
       href: "dogs"
     },
     {
-      name: "El Refugio",
+      name: "HEADER.ABOUTUS",
       href: "nosotros"
     },
     {
-      name: "Colabora",
+      name: "HEADER.HELPUS",
       href: "colabora"
     },
     {
-      name: "Contacto",
+      name: "HEADER.CONTACT",
       href: "contacto"
     }
   ];

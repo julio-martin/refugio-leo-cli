@@ -126,3 +126,24 @@ md-sidenav .header {
 }
 
 
+
+.flag {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('assets/images/flags/flags.png') no-repeat;
+}
+
+.flag.flag-en {
+    background-position: 0 -32px;
+}
+
+.flag.flag-es {
+    background-position: 0 0;
+}
+
+.flag.flag-fr {
+    background-position: -32px 0;
+}
+
+
