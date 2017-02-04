@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { SharedModule} from '../shared.module';
 import {DogListComponent} from './dog-list.component';
 import {DogDetailComponent} from './dog-detail.component';
 import { DogService } from './dog.service';
@@ -17,6 +17,7 @@ import { ContactComponent} from '../contact.component';
         ],
     imports: [
         BrowserModule,
+        SharedModule,
         FlexLayoutModule.forRoot(),
         CarouselModule.forRoot(),
             MaterialModule.forRoot(),

@@ -100,6 +100,14 @@
     }
   },
   "DOGS" : {
-    "TITLE": "Perros en adopción"
+    "TITLE": "Perros en adopción",
+    "ADOPTED": "Adoptado!",
+    "DETAILS" : {
+      "NAME" : "Nombre: ",
+      "GENDER": "Sexo: ",
+      "SIZE" : "Tamaño: ",
+      "AGE" : "Edad: ",
+      "BUTTON": "Quiero adoptar!"
+    }
   }
 }

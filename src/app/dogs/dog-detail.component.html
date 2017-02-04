@@ -3,12 +3,12 @@
     <md-card  *ngIf="dog" fxFlex="30">
       <h3>{{pageTitle}}</h3>
         <p>{{dog.description}}</p>
-        <p><strong>Nombre: </strong>{{dog.name}}</p>
-        <p><strong>Sexo: </strong>{{dog.gender}}</p>
-        <p><strong>Tamaño: </strong>{{dog.size}}</p>
-        <p><strong>Edad: </strong>{{dog.age}}</p>
+        <p><strong>{{ 'DOGS.DETAILS.NAME' | translate}}</strong>{{dog.name}}</p>
+        <p><strong>{{ 'DOGS.DETAILS.GENDER' | translate}}</strong>{{dog.gender}}</p>
+        <p><strong>{{ 'DOGS.DETAILS.SIZE' | translate}}</strong>{{dog.size}}</p>
+        <p><strong>{{ 'DOGS.DETAILS.AGE' | translate}}</strong>{{dog.age}}</p>
          <a [routerLink]="['/contacto', dog.name]">
-        <button md-raised-button class="adopta" color="primary">Quiero adoptar!</button>
+        <button md-raised-button class="adopta" color="primary">{{ 'DOGS.DETAILS.BUTTON' | translate}}</button>
         </a>
       <div class="logo-container" fxShow.gt-sm fxShow="false">
                 <img src="assets/images/logo.png" class="logo">

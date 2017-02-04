@@ -106,7 +106,7 @@
         "description": "",
         "image" : "aron",
         "slides": ["aron"],
-        "adopted": false
+        "adopted": true
     }
     
 ]

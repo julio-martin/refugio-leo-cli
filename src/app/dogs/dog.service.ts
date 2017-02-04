@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, EventEmitter } from '@angular/core';
 import { Http, Response} from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
@@ -11,33 +11,28 @@ import {TranslateService, LangChangeEvent} from 'ng2-translate';
 @Injectable()
 export class DogService {
 
-    translate: TranslateService;
+    language : string;
 
-    private _dogUrl = './api/dogs/dogs.json';
+    private _dogUrl = '';
 
     private _dogENUrl = './api/dogs/dogs_en.json';
 
     private _dogESUrl = './api/dogs/dogs_es.json';
 
-    constructor(private _http: Http, _translate : TranslateService) {
-        //TODO Retrieve dogs information according to current language
-        /*this.translate = _translate;
-        this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-            console.log(event.lang ==='es' ? this._dogESUrl : this._dogENUrl);
-            this._dogUrl = event.lang ==='es' ? this._dogESUrl : this._dogENUrl;
-            this.getDogs();
-        });*/
+    constructor(private _http: Http) {
+        
     }
 
-
-    getDogs() : Observable<IDog[]> {
+    getDogs(language : string) : Observable<IDog[]> {
+        this.language = language;
+        this._dogUrl = (language === 'es' ? this._dogESUrl : this._dogENUrl);
         return this._http.get(this._dogUrl)
             .map((response: Response) => <IDog[]> response.json())
             .catch(this.handleError);
     }
 
     getDog(name: string): Observable<IDog> {
-        return this.getDogs()
+        return this.getDogs(this.language)
             .map((dogs: IDog[]) => dogs.find(d => d.name === name));
     }
 

@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpModule, Http } from '@angular/http';
+import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MaterialModule, MdIcon} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -16,11 +16,8 @@ import { AboutUsComponent} from './about-us.component';
 import { ContactComponent} from './contact.component';
 import { HomeComponent} from './home.component';
 import { ContactFormComponent} from './contact-form.component';
-import {TranslateModule, TranslateLoader, TranslateStaticLoader} from 'ng2-translate';
+import { SharedModule} from './shared.module';
 
-export function createTranslateLoader(http: Http) {
-    return new TranslateStaticLoader(http, 'assets/i18n', '.json');
-}
 
 @NgModule({
   declarations: [
@@ -36,11 +33,7 @@ export function createTranslateLoader(http: Http) {
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    TranslateModule.forRoot({
-      provide: TranslateLoader,
-    useFactory: (createTranslateLoader),
-            deps: [Http]
-    }),
+    SharedModule,
     CarouselModule.forRoot(),
     FlexLayoutModule.forRoot(),
     RouterModule.forRoot([
@@ -54,8 +47,7 @@ export function createTranslateLoader(http: Http) {
     MaterialModule.forRoot()
   ],
   exports:[
-        ContactComponent,
-        TranslateModule
+        ContactComponent
     ],
   providers: [],
   bootstrap: [AppComponent]

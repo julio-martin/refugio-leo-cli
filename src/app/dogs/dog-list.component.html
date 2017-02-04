@@ -1,5 +1,5 @@
 <div class="container">
-<h2>Perros en adopción</h2>
+<h2>{{ 'DOGS.TITLE' | translate}}</h2>
 </div>
 <div class="card-container">
     <md-card *ngFor="let dog of dogs">
@@ -19,7 +19,7 @@
         </a>
         </div>
         <div *ngIf="dog.adopted">
-          <button md-raised-button color="accent">ADOPTADO!</button>
+          <button md-raised-button color="accent">{{ 'DOGS.ADOPTED' | translate}}</button>
         </div>
       </md-card-actions>
     </md-card>

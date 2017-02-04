@@ -98,6 +98,17 @@
       "TITLE" : "Adopt!",
       "MESSAGE": "That's the best thing that can happen :)"
     }
+  },
+  "DOGS" : {
+    "TITLE": "Dogs for adoption",
+    "ADOPTED" : "Adopted!",
+    "DETAILS" : {
+      "NAME" : "Name: ",
+      "GENDER": "Sex: ",
+      "SIZE" : "Size: ",
+      "AGE" : "Age: ",
+      "BUTTON": "I'm interesting in adopt it!"
+    }
   }
 
 }
