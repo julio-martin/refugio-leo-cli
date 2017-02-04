@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Duke",
+        "gender": "Male",
+        "age": "1 year 6 months",
+        "size": "Large",
+        "description": "Crossbreed of September 2015. Neutered with all vaccines up to date. Prefers to be the only dog in the home.",
+        "image" : "duke",
+        "slides": ["duke4","duke2","duke3","duke"],
+        "adopted": false
+    },{
+        "name": "Chica",
+        "gender": "Female",
+        "age": "-",
+        "size": "Large",
+        "description": "About 30 Kg, excellent behavior. Neutered with all vaccines up to date.",
+        "image" : "chica",
+        "slides": ["chica2","chica","chica3","chica4"],
+        "adopted": false
+    },{
+        "name": "Zuma",
+        "gender": "Female",
+        "age": "8 months",
+        "size": "Small",
+        "description": "Podenco. About 12kg. All vaccines up to date. Very good character, she's grown in a family",
+        "image" : "zuma",
+        "slides": ["zuma","zuma2","zuma3"],
+        "adopted": false
+    },{
+        "name": "Perla",
+        "gender": "Female",
+        "age": "-",
+        "size": "Medium",
+        "description": "Cross Sharpei. Dominant with dogs, good behavior with people.",
+        "image" : "perla",
+        "slides": ["perla","perla2"],
+        "adopted": false
+    },{
+        "name": "Olivera",
+        "gender": "Female",
+        "age": "13 years",
+        "size": "Medium",
+        "description": "Podenco. All vaccines up to date. She is the grandmother of 'el Refugio de Leo', ¿could you give her a warm home to spend her last years? :)",
+        "image" : "olivera",
+        "slides": ["olivera","olivera2"],
+        "adopted": false
+    },{
+        "name": "Aimé",
+        "gender": "Male",
+        "age": "7 años",
+        "size": "Medium",
+        "description": "Good behavior with dogs and children. Neutered with all vaccines up to date.",
+        "image" : "aime",
+        "slides": ["aime","aime2","aime3"],
+        "adopted": false
+    },{
+        "name": "Maya",
+        "gender": "Female",
+        "age": "-",
+        "size": "Medium",
+        "description": "Cross of labrador retriever. About 15 kg. Neutered with all vaccines up to date.",
+        "image" : "maya",
+        "slides": ["maya","maya2"],
+        "adopted": false
+    },{
+        "name": "Lassie",
+        "gender": "Female",
+        "age": "8 months",
+        "size": "Medium",
+        "description": "Collie. Very good character like a puppy",
+        "image" : "lassie",
+        "slides": ["lassie","lassie2","lassie3","lassie4"],
+        "adopted": false
+    },{
+        "name": "Hope",
+        "gender": "Female",
+        "age": "1 year",
+        "size": "Medium",
+        "description": "She has just had several puppies and she is in a home shelter.",
+        "image" : "hope",
+        "slides": ["hope","hope2","hope3"],
+        "adopted": false
+    },{
+        "name": "Fito",
+        "gender": "Male",
+        "age": "-",
+        "size": "Large",
+        "description": "Cross of galgo. About 12kg. Good behavior, very calm and affectionate.",
+        "image" : "fito",
+        "slides": ["fito","fito2","fito3"],
+        "adopted": false
+    },{
+        "name": "Arianne",
+        "gender": "Female",
+        "age": "-",
+        "size": "Large",
+        "description": "",
+        "image" : "arianne",
+        "slides": ["arianne3","arianne","arianne2"],
+        "adopted": false
+    },{
+        "name": "Arón",
+        "gender": "Male",
+        "age": "-",
+        "size": "Medium",
+        "description": "",
+        "image" : "aron",
+        "slides": ["aron"],
+        "adopted": true
+    }
+    
+]
