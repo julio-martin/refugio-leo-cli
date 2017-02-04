@@ -5,6 +5,7 @@ import { Subscription }       from 'rxjs/Subscription';
 
 import { IDog } from './dog';
 import {DogService} from './dog.service';
+import {TranslateService} from 'ng2-translate';
 
 @Component({
     selector: 'dog-detail',
@@ -19,7 +20,7 @@ export class DogDetailComponent implements OnInit, OnDestroy {
 
     constructor(private _route: ActivatedRoute,
                 private _router:Router,
-                private  _dogService: DogService) {
+                private  _dogService: DogService, private _translate : TranslateService) {
     }
 
     ngOnInit() : void {
@@ -36,7 +37,7 @@ export class DogDetailComponent implements OnInit, OnDestroy {
     }
 
     getDog(name: string) {
-        this._dogService.getDog(name).subscribe(
+        this._dogService.getDog(name, this._translate.currentLang).subscribe(
             dog => {this.dog = dog},
             error => this.errorMessage = <any>error);
     }

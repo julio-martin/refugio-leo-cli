@@ -11,8 +11,6 @@ import {TranslateService, LangChangeEvent} from 'ng2-translate';
 @Injectable()
 export class DogService {
 
-    language : string;
-
     private _dogUrl = '';
 
     private _dogENUrl = './api/dogs/dogs_en.json';
@@ -24,15 +22,14 @@ export class DogService {
     }
 
     getDogs(language : string) : Observable<IDog[]> {
-        this.language = language;
         this._dogUrl = (language === 'es' ? this._dogESUrl : this._dogENUrl);
         return this._http.get(this._dogUrl)
             .map((response: Response) => <IDog[]> response.json())
             .catch(this.handleError);
     }
 
-    getDog(name: string): Observable<IDog> {
-        return this.getDogs(this.language)
+    getDog(name: string, language: string): Observable<IDog> {
+        return this.getDogs(language)
             .map((dogs: IDog[]) => dogs.find(d => d.name === name));
     }
 

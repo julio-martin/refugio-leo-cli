@@ -2,6 +2,8 @@ import { Component,ChangeDetectionStrategy } from '@angular/core';
 
 import {DogService} from './dogs/dog.service';
 import {TranslateService} from 'ng2-translate';
+import { Router, NavigationEnd } from '@angular/router';
+declare let ga: Function;
 
 @Component({
   selector: 'app-root',
@@ -15,18 +17,21 @@ export class AppComponent {
 
     languages: string[] = ["es", "en"];
 
-    constructor(private translate: TranslateService) {
+    constructor(private translate: TranslateService, private _router: Router) {
         translate.addLangs(this.languages);
         translate.setDefaultLang('es');
 
         let browserLang: string = this.translate.getBrowserLang();
-        console.log("BROWSERLANG:" + browserLang);
         translate.use(browserLang.match(/en|es/) ? browserLang : 'es');
-
-    }
+        this._router.events.subscribe(event => {
+          if (event instanceof NavigationEnd) {
+            ga('set', 'page', event.urlAfterRedirects);
+            ga('send', 'pageview');
+          }
+        });
+  }
 
   public changeLanguage(translate: TranslateService, language : any) {
-      console.log("SELECTED LANGUAGE:" + language);
       translate.use(language);
   }
 

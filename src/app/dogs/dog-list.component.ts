@@ -12,7 +12,6 @@ import {DogService} from './dog.service';
 export class DogListComponent implements OnInit {
     dogs: IDog[];
     errorMessage : string;
-    language = 'es';
 
     onLangChange: EventEmitter<LangChangeEvent>;
 
@@ -23,14 +22,13 @@ export class DogListComponent implements OnInit {
     ngOnInit(): void {
         //monitor language change
         this.onLangChange = this._translate.onLangChange.subscribe( (event: LangChangeEvent) => {
-            this.language = event.lang;
-            this._dogService.getDogs(this.language)
+            this._dogService.getDogs(event.lang)
                 .subscribe(
                     dogs => this.dogs = dogs,
                     error => this.errorMessage = <any>error
                 );
         });
-        this._dogService.getDogs(this.language)
+        this._dogService.getDogs(this._translate.currentLang)
                 .subscribe(
                     dogs => this.dogs = dogs,
                     error => this.errorMessage = <any>error

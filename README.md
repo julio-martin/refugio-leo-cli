@@ -7,7 +7,6 @@ You can help them with donations, teaming (https://www.teaming.net/refugiodeleo)
 TODO List
 ===============
 - SEO and sitemap
-- Google Analytics
 - Add formspree (https://formspree.io) to contact form
 - Center vertically carousel images
 - Filter Cards by size, gender and age
@@ -17,14 +16,16 @@ TODO List
 - Share dog-details to social media
 - Any awesome idea :)
 
-Technologies
-===============
+What we are using
+=================
 - Angular 2
+- Github-Pages
 - Material Design
 - Angular CLI
 - Angular Flex Layout
 - Bootstrap
 - ng2-translate (Internationalization)
+- Google Analytics
 
 About me
 ===============

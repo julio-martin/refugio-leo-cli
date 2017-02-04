@@ -7,77 +7,70 @@
     </div>
     <md-nav-list>
       <ul *ngFor="let view of views">
-      <a md-list-item [routerLink]="[view.href]" (click)='sidenav.close()'>
-        <md-icon md-list-icon>{{view.icon | translate}}</md-icon>
-        <span md-line>{{view.name | translate}}</span>
-        <span md-line class="secondary">{{view.description | translate}}</span>
-      </a>
+        <a md-list-item [routerLink]="[view.href]" (click)='sidenav.close()'>
+          <md-icon md-list-icon>{{view.icon | translate}}</md-icon>
+          <span md-line>{{view.name | translate}}</span>
+          <span md-line class="secondary">{{view.description | translate}}</span>
+        </a>
       </ul>
     </md-nav-list>
   </md-sidenav>
 
   <header>
-  <md-toolbar color="primary">
-    <button md-icon-button (click)="sidenav.open()" fxHide="false" fxHide.gt-sm>
+    <md-toolbar color="primary">
+      <button md-icon-button (click)="sidenav.open()" fxHide="false" fxHide.gt-sm>
       <md-icon>menu</md-icon>
     </button>
 
       <div class="toolbar-container" fxShow.gt-sm fxShow="false">
-        <div class="image"></div>
+          <a class="image" routerLink="/"></a>
       </div>
-    
-    <span>el Refugio de Leo</span>
 
-    <!-- This fills the remaining space of the current row -->
-    <span class="example-fill-remaining-space"></span>
+      <span>el Refugio de Leo</span>
 
-    <div *ngFor="let headerLink of headerLinks" fxShow.gt-sm fxShow="false">
-      <a class="header-link" [routerLink]="[headerLink.href]">
-        <button md-raised-button color="primary">{{headerLink.name | translate}}</button>
-      </a>
+      <!-- This fills the remaining space of the current row -->
+      <span class="example-fill-remaining-space"></span>
+
+      <div *ngFor="let headerLink of headerLinks" fxShow.gt-sm fxShow="false">
+        <a class="header-link" [routerLink]="[headerLink.href]">
+          <button md-raised-button color="primary">{{headerLink.name | translate}}</button>
+        </a>
       </div>
-       <md-menu #languageMenu="mdMenu">
+      <md-menu #languageMenu="mdMenu">
 
-        <button md-menu-item  *ngFor="let language of languages"  (click)="changeLanguage(translate, language)"> 
+        <button md-menu-item *ngFor="let language of languages" (click)="changeLanguage(translate, language)"> 
          <img class="flag flag-{{language}}"/>
         </button>
       </md-menu>
       <button md-raised-button color="primary" [mdMenuTriggerFor]="languageMenu">
         <img class="flag flag-{{translate.currentLang}}"/>
       </button>
-     <!--  <button md-icon-button color="primary" [mdMenuTriggerFor]="languageMenu">
-          <md-icon svgIcon="assets/images/flags/{{translate.currentLang}}.svg"></md-icon>
-      </button>-->
-  </md-toolbar>
+    </md-toolbar>
   </header>
-  
+
   <router-outlet></router-outlet>
-<footer class="footer-distributed">
+  <footer class="footer-distributed">
 
-			<div class="footer-right">
+    <div class="footer-right">
 
-				<a target="_blank" href="http://www.facebook.com/elrefugiodeleo"><i class="fa fa-facebook"></i></a>
-				<a target="_blank" href="http://www.twitter.com/elrefugiodeleo"><i class="fa fa-twitter"></i></a>
-				<a target="_blank" href="http://www.instagram.com/elrefugiodeleo"><i class="fa fa-instagram"></i></a>
-				<a target="_blank" href="https://github.com/julio-martin/refugio-leo-cli"><i class="fa fa-github"></i></a>
+      <a target="_blank" href="http://www.facebook.com/elrefugiodeleo"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="http://www.twitter.com/elrefugiodeleo"><i class="fa fa-twitter"></i></a>
+      <a target="_blank" href="http://www.instagram.com/elrefugiodeleo"><i class="fa fa-instagram"></i></a>
+      <a target="_blank" href="https://github.com/julio-martin/refugio-leo-cli"><i class="fa fa-github"></i></a>
 
-			</div>
+    </div>
 
-			<div class="footer-left">
+    <div class="footer-left">
 
-				<p class="footer-links">
-					<a routerLink="/">{{ 'FOOTER.MAIN' | translate }}</a>
-					·
-					<a routerLink="dogs">{{ 'FOOTER.DOGS' | translate }}</a>
-					·
-					<a routerLink="nosotros">{{ 'FOOTER.ABOUTUS' | translate }}</a>
-					·
-					<a routerLink="colabora">{{ 'FOOTER.HELPUS' | translate }}</a>
-					·
-					<a routerLink="contacto">{{ 'FOOTER.CONTACT' | translate }}</a>
-				</p>
+      <p class="footer-links">
+        <a routerLink="/">{{ 'FOOTER.MAIN' | translate }}</a> ·
+        <a routerLink="dogs">{{ 'FOOTER.DOGS' | translate }}</a> ·
+        <a routerLink="nosotros">{{ 'FOOTER.ABOUTUS' | translate }}</a> ·
+        <a routerLink="colabora">{{ 'FOOTER.HELPUS' | translate }}</a> ·
+        <a routerLink="contacto">{{ 'FOOTER.CONTACT' | translate }}</a>
+      </p>
 
-				<p>el Refugio de Leo &copy; 2017</p>
-			</div>
+      <p>el Refugio de Leo &copy; 2017</p>
+    </div>
 
-		</footer>
+  </footer>
