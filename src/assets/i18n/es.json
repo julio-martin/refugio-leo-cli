@@ -63,12 +63,14 @@
     "SUBJECT": {
       "LABEL" : "Asunto",
       "PLACEHOLDER": "¿Por qué nos contactas?",
-      "ERROR": "Debe introducir un Asunto."
+      "ERROR": "Debe introducir un Asunto.",
+      "POPULATED" : "Quiero adoptar!"
     },
     "MESSAGE": {
       "LABEL" : "Mensaje",
       "PLACEHOLDER": "Cuéntanos!",
-      "ERROR": "Debe introducir un Mensaje."
+      "ERROR": "Debe introducir un Mensaje.",
+      "POPULATED" : "Hola! Quiero adoptar a {{value}}. Podéis poneros en contacto conmigo? Gracias!"
     },
     "SUCCESS" : {
       "TITLE" : "Gracias por su mensaje!",

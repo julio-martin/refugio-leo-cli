@@ -20,13 +20,9 @@ export class ContactComponent  implements OnInit, OnDestroy{
         this.sub = this._route.params.subscribe(
             params => {
                 let dog = params['dog'];
-                console.log("DOG:" + dog);
                 if(dog) {
-                this.dog = dog;
-                console.log("CONTACT WITH " + dog);
-                } else {
-                    console.log("CONTACT WITHOUT DOG");
-                }
+                    this.dog = dog;
+                } 
         });
     }
 
