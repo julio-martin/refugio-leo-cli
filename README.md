@@ -10,7 +10,6 @@ TODO List
 - Add formspree (https://formspree.io) to contact form
 - Center vertically carousel images
 - Filter Cards by size, gender and age
-- Show cards randomly
 - Prerender (Angular 2 Universal???)
 - Navigation between dog-details
 - Share dog-details to social media
