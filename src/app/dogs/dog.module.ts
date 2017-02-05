@@ -13,7 +13,7 @@ import { ContactComponent} from '../contact.component';
 @NgModule({
   declarations: [ 
         DogListComponent,
-        DogDetailComponent,
+        DogDetailComponent
         ],
     imports: [
         BrowserModule,
