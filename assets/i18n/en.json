@@ -105,6 +105,13 @@
       "MESSAGE": "That's the best thing that can happen :)"
     }
   },
+  "ABOUTUS" : {
+    "TITLE": "About Us",
+    "HISTORY" : {
+      "TITLE" : "History",
+      "MESSAGE": "Under construction"
+    }
+  },
   "DOGS" : {
     "TITLE": "Dogs for adoption",
     "ADOPTED" : "Adopted!",
