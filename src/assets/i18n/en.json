@@ -75,6 +75,10 @@
     "SUCCESS" : {
       "TITLE" : "Thanks for your message!",
       "SUBTITLE": "We´ll try to contact you asap!"
+    },
+    "FAILED" : {
+      "TITLE" : "Oops, something is wrong",
+      "SUBTITLE": "Please, contact us by email or social media"
     }
   },
   "HELPUS" : {

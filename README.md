@@ -7,7 +7,6 @@ You can help them with donations, teaming (https://www.teaming.net/refugiodeleo)
 TODO List
 ===============
 - SEO and sitemap
-- Add formspree (https://formspree.io) to contact form
 - Center vertically carousel images
 - Filter Cards by size, gender and age
 - Prerender (Angular 2 Universal???)
@@ -25,6 +24,7 @@ What we are using
 - Bootstrap
 - ng2-translate (Internationalization)
 - Google Analytics
+- Formspree (https://formspree.io) to send contact form
 
 About me
 ===============

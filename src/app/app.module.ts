@@ -18,6 +18,7 @@ import { HomeComponent} from './home.component';
 import { ContactFormComponent} from './contact-form.component';
 import { SharedModule} from './shared.module';
 
+import { Data } from "./data";
 
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ import { SharedModule} from './shared.module';
   exports:[
         ContactComponent
     ],
-  providers: [],
+  providers: [Data],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

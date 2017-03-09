@@ -7,7 +7,8 @@
         <p><strong>{{ 'DOGS.DETAILS.GENDER' | translate}}</strong>{{dog.gender}}</p>
         <p><strong>{{ 'DOGS.DETAILS.SIZE' | translate}}</strong>{{dog.size}}</p>
         <p><strong>{{ 'DOGS.DETAILS.AGE' | translate}}</strong>{{dog.age}}</p>
-         <a [routerLink]="['/contacto', dog.name]">
+         <!--<a [routerLink]="['/contacto', dog.name]">-->
+         <a (click)="contactFormByDog()">
         <button md-raised-button class="adopta" color="primary">{{ 'DOGS.DETAILS.BUTTON' | translate}}</button>
         </a>
       <div class="logo-container" fxShow.gt-sm fxShow="false">

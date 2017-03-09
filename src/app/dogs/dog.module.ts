@@ -10,6 +10,8 @@ import {DogDetailComponent} from './dog-detail.component';
 import { DogService } from './dog.service';
 import { ContactComponent} from '../contact.component';
 
+import { Data } from "../data";
+
 @NgModule({
   declarations: [ 
         DogListComponent,
@@ -32,7 +34,6 @@ import { ContactComponent} from '../contact.component';
     exports:[
         DogListComponent
     ],
-    providers: [
-    ]
+    providers: [Data]
 })
 export class DogModule {}

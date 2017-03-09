@@ -75,6 +75,10 @@
     "SUCCESS" : {
       "TITLE" : "Gracias por su mensaje!",
       "SUBTITLE": "Intentaremos leerlo lo antes posible!"
+    },
+    "FAILED" : {
+      "TITLE" : "Algo no funciona correctamente",
+      "SUBTITLE": "Puedes contactarnos por email o redes sociales?"
     }
   },
   "HELPUS" : {

@@ -2,7 +2,11 @@
     <h2>{{ 'CONTACTFORM.SUCCESS.TITLE' | translate }}</h2>
     <p>{{ 'CONTACTFORM.SUCCESS.SUBTITLE' | translate }}</p>
 </div>
-<form *ngIf="!submitted" novalidate [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm)">
+<div class="jumbotron text-center" *ngIf="failed">
+    <h2>{{ 'CONTACTFORM.FAILED.TITLE' | translate }}</h2>
+    <p>{{ 'CONTACTFORM.FAILED.SUBTITLE' | translate }}</p>
+</div>
+<form *ngIf="!submitted && !failed" novalidate [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm)">
     <h3>{{ 'CONTACTFORM.TITLE' | translate }}</h3>
     <div class="form-group">
         <label for="name">{{ 'CONTACTFORM.NAME.LABEL' | translate }}</label>

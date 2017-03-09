@@ -1,10 +1,16 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-import { ContactInfo }    from './contact-info';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import {CustomValidators} from './custom.validator';
-import {TranslateService} from 'ng2-translate';
 import { Http, RequestOptions, Headers} from '@angular/http';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Observable } from 'rxjs/Observable';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import {TranslateService} from 'ng2-translate';
+import 'rxjs/add/observable/throw';
+import 'rxjs/add/operator/catch';
+import { ContactInfo }    from './contact-info';
+import {CustomValidators} from './custom.validator';
+
+import { IDog } from './dogs/dog';
+import { Data } from "./data";
 
 @Component({
   selector: 'contact-form',
@@ -15,12 +21,16 @@ export class ContactFormComponent implements OnInit{
   @Input() dog : string;
   contactForm : FormGroup;
   submitted = false;
+  failed = false;
   subject : string;
   message : string;
 
-  constructor(private _fb: FormBuilder, private _translate: TranslateService, private _http:Http) { }
+  constructor(private _data: Data, private _fb: FormBuilder, private _translate: TranslateService, private _http:Http){
+  
+  }
 
   ngOnInit() {
+    this.dog = this._data.storage;
     if(this.dog) {
         this._translate.get('CONTACTFORM.SUBJECT.POPULATED').subscribe((res: string) => {
           this.subject = res;
@@ -39,13 +49,15 @@ export class ContactFormComponent implements OnInit{
   }
 
   onSubmit({ value, valid }: { value: ContactInfo, valid: boolean }) {
-    this.submitted = true;
     let body = JSON.stringify(value);
-    console.log(body);
     let headers = new Headers({ 'Content-Type': 'application/json', 'Accept':'application/json' });
     let options = new RequestOptions({ headers: headers });
     this._http.post('https://formspree.io/contacto@elrefugiodeleo.com', body, options).subscribe(result => {
-        console.log( result );
+        if(result.ok) {
+           this.submitted = true;
+        } else {
+          this.failed = true;
+        }
     });
   }
 }

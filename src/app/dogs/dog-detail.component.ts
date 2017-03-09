@@ -1,11 +1,12 @@
-import {Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import {Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
+import { ActivatedRoute, Router, NavigationExtras } from '@angular/router';
 
 import { Subscription }       from 'rxjs/Subscription';
 
 import { IDog } from './dog';
 import {DogService} from './dog.service';
 import {TranslateService} from 'ng2-translate';
+import { Data } from "../data";
 
 @Component({
     selector: 'dog-detail',
@@ -17,8 +18,8 @@ export class DogDetailComponent implements OnInit, OnDestroy {
     pageTitle: string = '';
     errorMessage: string;
     private sub: Subscription;
-
-    constructor(private _route: ActivatedRoute,
+    
+    constructor(private _data: Data, private _route: ActivatedRoute,
                 private _router:Router,
                 private  _dogService: DogService, private _translate : TranslateService) {
     }
@@ -44,5 +45,10 @@ export class DogDetailComponent implements OnInit, OnDestroy {
 
     onBack() : void {
         this._router.navigate(['/dogs']);
+    }
+
+    public contactFormByDog() {
+        this._data.storage = this.dog.name;
+        this._router.navigate(['contacto']);
     }
 }
