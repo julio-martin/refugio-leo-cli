@@ -63,14 +63,14 @@
     "SUBJECT": {
       "LABEL" : "Subject",
       "PLACEHOLDER": "Why do you want to contact us?",
-      "ERROR": "Debe introducir un Asunto.",
-      "POPULATED" : "I'm interesting in adopt a dog"
+      "ERROR": "Subject is required.",
+      "POPULATED" : "I'm interesting in adopting {{value}}"
     },
     "MESSAGE": {
       "LABEL" : "Message",
       "PLACEHOLDER": "Let us know!",
       "ERROR": "Message is required.",
-      "POPULATED" : "Hi! I would like to adopt {{value}}. Could yo contact me to follow next steps? Thanks!"
+      "POPULATED" : "Hi! I would like to adopt {{value}}. Could you contact me to follow next steps? Thanks!"
     },
     "SUCCESS" : {
       "TITLE" : "Thanks for your message!",
