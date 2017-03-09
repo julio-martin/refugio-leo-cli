@@ -105,6 +105,13 @@
       "MESSAGE": "Es la mejor manera de ayudarnos... encontrar una familia para nuestros peludos."
     }
   },
+  "ABOUTUS" : {
+    "TITLE": "el Refugio",
+    "HISTORY" : {
+      "TITLE" : "Historia",
+      "MESSAGE": "En construcción..."
+    }
+  },
   "DOGS" : {
     "TITLE": "Perros en adopción",
     "ADOPTED": "Adoptado!",
