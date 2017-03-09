@@ -32,7 +32,7 @@ export class ContactFormComponent implements OnInit{
   ngOnInit() {
     this.dog = this._data.storage;
     if(this.dog) {
-        this._translate.get('CONTACTFORM.SUBJECT.POPULATED').subscribe((res: string) => {
+        this._translate.get('CONTACTFORM.SUBJECT.POPULATED', {value: this.dog}).subscribe((res: string) => {
           this.subject = res;
         });
         this._translate.get('CONTACTFORM.MESSAGE.POPULATED', {value: this.dog}).subscribe((res: string) => {

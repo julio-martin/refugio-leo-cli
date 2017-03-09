@@ -64,7 +64,7 @@
       "LABEL" : "Asunto",
       "PLACEHOLDER": "¿Por qué nos contactas?",
       "ERROR": "Debe introducir un Asunto.",
-      "POPULATED" : "Quiero adoptar!"
+      "POPULATED" : "Quiero adoptar a {{value}}!"
     },
     "MESSAGE": {
       "LABEL" : "Mensaje",
