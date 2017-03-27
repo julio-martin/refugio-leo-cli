@@ -52,7 +52,7 @@
         "description": "Buen comportamiento con perros y niños. 7 años de edad. Castrado y con todas las vacunas al día.",
         "image" : "aime",
         "slides": ["aime","aime2","aime3"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Maya",
         "gender": "Hembra",
