@@ -52,7 +52,7 @@
         "description": "Good behavior with dogs and children. Neutered with all vaccines up to date.",
         "image" : "aime",
         "slides": ["aime","aime2","aime3"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Maya",
         "gender": "Female",
