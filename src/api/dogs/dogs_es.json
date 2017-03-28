@@ -18,15 +18,6 @@
         "slides": ["chica2","chica","chica3","chica4"],
         "adopted": false
     },{
-        "name": "Zuma",
-        "gender": "Hembra",
-        "age": "8 meses",
-        "size": "Pequeño",
-        "description": "Podenco. 8 meses. 12kg. Vacunas al día. Muy buen carácter criado en ambiente familiar.",
-        "image" : "zuma",
-        "slides": ["zuma","zuma2","zuma3"],
-        "adopted": false
-    },{
         "name": "Perla",
         "gender": "Hembra",
         "age": "-",
@@ -43,7 +34,7 @@
         "description": "Podenca. Vacunas al día. No castrada. Tiene 13 años, es la abuelita del Refugio, ¿queréis darle un hogar calentito donde pasar sus últimos años de vida?",
         "image" : "olivera",
         "slides": ["olivera","olivera2"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Aimé",
         "gender": "Macho",

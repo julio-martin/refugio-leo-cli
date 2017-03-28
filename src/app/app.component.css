@@ -29,7 +29,7 @@ md-sidenav .header {
 }
 
 .avatar-container .image {
-    background-image: url(assets/images/logo.png);
+    background-image: url(../assets/images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
@@ -43,7 +43,7 @@ md-sidenav .header {
 }
 
 .toolbar-container .image {
-    background-image: url(assets/images/logo.png);
+    background-image: url(../assets/images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: inherit;
@@ -131,7 +131,7 @@ md-sidenav .header {
     display: inline-block;
     width: 32px;
     height: 32px;
-    background: url('assets/images/flags/flags.png') no-repeat;
+    background: url('../assets/images/flags/flags.png') no-repeat;
 }
 
 .flag.flag-en {

@@ -18,15 +18,6 @@
         "slides": ["chica2","chica","chica3","chica4"],
         "adopted": false
     },{
-        "name": "Zuma",
-        "gender": "Female",
-        "age": "8 months",
-        "size": "Small",
-        "description": "Podenco. About 12kg. All vaccines up to date. Very good character, she's grown in a family",
-        "image" : "zuma",
-        "slides": ["zuma","zuma2","zuma3"],
-        "adopted": false
-    },{
         "name": "Perla",
         "gender": "Female",
         "age": "-",
@@ -43,7 +34,7 @@
         "description": "Podenco. All vaccines up to date. She is the grandmother of 'el Refugio de Leo', ¿could you give her a warm home to spend her last years? :)",
         "image" : "olivera",
         "slides": ["olivera","olivera2"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Aimé",
         "gender": "Male",
