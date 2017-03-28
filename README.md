@@ -16,6 +16,7 @@ TODO List
 - Share dog-details to social media
 - Any awesome idea :)
 - Tests
+- And last but not least, a little bit of design and CSS :D
 
 What we are using
 =================
