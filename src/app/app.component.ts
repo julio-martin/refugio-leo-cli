@@ -16,13 +16,15 @@ declare let ga: Function;
 export class AppComponent {
 
     languages: string[] = ["es", "en"];
+    translate: TranslateService;
 
-    constructor(private translate: TranslateService, private _router: Router) {
-        translate.addLangs(this.languages);
-        translate.setDefaultLang('es');
+    constructor(translate: TranslateService, private _router: Router) {
+      this.translate = translate;
+        this.translate.addLangs(this.languages);
+        this.translate.setDefaultLang('es');
 
         let browserLang: string = this.translate.getBrowserLang();
-        translate.use(browserLang.match(/en|es/) ? browserLang : 'es');
+        this.translate.use(browserLang.match(/en|es/) ? browserLang : 'es');
         this._router.events.subscribe(event => {
           if (event instanceof NavigationEnd) {
             ga('set', 'page', event.urlAfterRedirects);
@@ -31,8 +33,8 @@ export class AppComponent {
         });
   }
 
-  public changeLanguage(translate: TranslateService, language : any) {
-      translate.use(language);
+  public changeLanguage(language : any) {
+      this.translate.use(language);
   }
 
  views: Object[] = [

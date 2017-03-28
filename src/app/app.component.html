@@ -38,7 +38,7 @@
       </div>
       <md-menu #languageMenu="mdMenu">
 
-        <button md-menu-item *ngFor="let language of languages" (click)="changeLanguage(translate, language)"> 
+        <button md-menu-item *ngFor="let language of languages" (click)="changeLanguage(language)"> 
          <img class="flag flag-{{language}}"/>
         </button>
       </md-menu>

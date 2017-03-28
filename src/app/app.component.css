@@ -46,8 +46,8 @@ md-sidenav .header {
     background-image: url(../assets/images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: inherit;
-    width: inherit;
+    height: 100%;
+    width: 100%;
 }
 
 .footer-distributed{
