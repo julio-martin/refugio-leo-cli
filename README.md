@@ -2,6 +2,8 @@ elRefugioDeLeo
 ===============
 Official web page of animal shelter "el Refugio de Leo" at Malaga, Spain.
 
+http://www.elrefugiodeleo.com
+
 You can help them with donations, teaming (https://www.teaming.net/refugiodeleo) or even commits :). Feel free to contribute to this project.
 
 TODO List
@@ -13,6 +15,7 @@ TODO List
 - Navigation between dog-details
 - Share dog-details to social media
 - Any awesome idea :)
+- Tests
 
 What we are using
 =================
