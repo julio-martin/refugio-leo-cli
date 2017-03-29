@@ -51,7 +51,7 @@
         "size": "Mediano",
         "description": "Mix de labrador. Sobre 15 kg. Castrada y con vacunas al día.",
         "image" : "maya",
-        "slides": ["maya","maya2"],
+        "slides": ["maya","maya2, maya3"],
         "adopted": false
     },{
         "name": "Lassie",
@@ -83,9 +83,9 @@
     },{
         "name": "Arianne",
         "gender": "Hembra",
-        "age": "-",
+        "age": "3 años",
         "size": "Grande",
-        "description": "",
+        "description": "Castrada y con vacunas al día.",
         "image" : "arianne",
         "slides": ["arianne3","arianne","arianne2"],
         "adopted": false
@@ -98,6 +98,204 @@
         "image" : "aron",
         "slides": ["aron"],
         "adopted": true
+    },{
+        "name": "Podencos",
+        "gender": "Hembra/Macho",
+        "age": "3 meses",
+        "size": "Mediano",
+        "description": "5 cachorritos podencos",
+        "image" : "podencos",
+        "slides": ["podencos","podencos2", "podencos3", "podencos4","podencos5"],
+        "adopted": false
+    },{
+        "name": "Candy",
+        "gender": "Hembra",
+        "age": "8 años",
+        "size": "Pequeño",
+        "description": "Mix yorkshire. Castrada y con vacunas al día.",
+        "image" : "candy",
+        "slides": ["candy"],
+        "adopted": false
+    },{
+        "name": "Feria",
+        "gender": "Hembra",
+        "age": "2 años y medio",
+        "size": "Pequeño",
+        "description": "Mix yorkshire. Castrada y con vacunas al día.",
+        "image" : "feria",
+        "slides": ["feria"],
+        "adopted": false
+    },{
+        "name": "Romeo",
+        "gender": "Macho",
+        "age": "5 años (01/01/2012)",
+        "size": "Pequeño",
+        "description": "Mix shitzu. Castrado y con vacunas al día.",
+        "image" : "romeo",
+        "slides": ["romeo"],
+        "adopted": false
+    },{
+        "name": "Toby",
+        "gender": "Macho",
+        "age": "1 año y medio (01/01/2016)",
+        "size": "Mediano",
+        "description": "Mix podenco. Castrado y con vacunas al día.",
+        "image" : "toby",
+        "slides": ["toby"],
+        "adopted": false
+    },{
+        "name": "Venus",
+        "gender": "Hembra",
+        "age": "1 año (20/04/2016)",
+        "size": "Mediano",
+        "description": "Cruce. Castrada y con vacunas al día.",
+        "image" : "venus",
+        "slides": ["venus"],
+        "adopted": false
+    },{
+        "name": "RosaDajana",
+        "gender": "Hembra",
+        "age": "2 años y medio (01/01/2015)",
+        "size": "Mediano",
+        "description": "Mix Dogo Argentino y Pitbull.",
+        "image" : "rosadajana",
+        "slides": ["rosadajana"],
+        "adopted": false
+    },{
+        "name": "Zirko",
+        "gender": "Macho",
+        "age": "2 años y medio (01/01/2015)",
+        "size": "Mediano",
+        "description": "Cruce. Castrado y con vacunas al día.",
+        "image" : "zirko",
+        "slides": ["zirko"],
+        "adopted": false
+    },{
+        "name": "Ramsés",
+        "gender": "Macho",
+        "age": "1 año y medio (01/01/2016)",
+        "size": "Grande",
+        "description": "Cruce. Castrado y con vacunas al día.",
+        "image" : "ramses",
+        "slides": ["ramses"],
+        "adopted": false
+    },{
+        "name": "Syriah",
+        "gender": "Hembra",
+        "age": "2 años y medio (26/01/2015)",
+        "size": "Medium",
+        "description": "Mix American Staffordshire y Bull-Terrier.",
+        "image" : "syriah",
+        "slides": ["syriah"],
+        "adopted": false
+    },{
+        "name": "Plata",
+        "gender": "Hembra",
+        "age": "2 años y medio (01/01/2015)",
+        "size": "Mediano",
+        "description": "Dogo Argentino. Castrada y con vacunas al día.",
+        "image" : "plata",
+        "slides": ["plata"],
+        "adopted": false
+    },{
+        "name": "Hera",
+        "gender": "Hembra",
+        "age": "1 año (20/02/2016)",
+        "size": "Grande",
+        "description": "Mix. Castrada y con vacunas al día.",
+        "image" : "hera",
+        "slides": ["hera"],
+        "adopted": false
+    },{
+        "name": "KingYakari",
+        "gender": "Macho",
+        "age": "1 año y medio (01/01/2016)",
+        "size": "Medium",
+        "description": "Mix pastor. Castrado y con vacunas al día.",
+        "image" : "kingyakari",
+        "slides": ["kingyakari"],
+        "adopted": false
+    },{
+        "name": "SerenaLisa",
+        "gender": "Hembra",
+        "age": "4 años (20/05/2013)",
+        "size": "Grande",
+        "description": "Mix. Castrada y con vacunas al día.",
+        "image" : "serenalisa",
+        "slides": ["serenalisa"],
+        "adopted": false
+    },{
+        "name": "Bella",
+        "gender": "Hembra",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "bella",
+        "slides": ["bella"],
+        "adopted": false
+    },{
+        "name": "Aline",
+        "gender": "Hembra",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "aline",
+        "slides": ["aline"],
+        "adopted": false
+    },{
+        "name": "Cindy",
+        "gender": "Hembra",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "cindy",
+        "slides": ["cindy"],
+        "adopted": false
+    },{
+        "name": "Erika",
+        "gender": "Hembra",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "erika",
+        "slides": ["erika"],
+        "adopted": false
+    },{
+        "name": "Dora",
+        "gender": "Hembra",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "dora",
+        "slides": ["dora"],
+        "adopted": false
+    },{
+        "name": "Jenny",
+        "gender": "Hembra",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "jenny",
+        "slides": ["jenny"],
+        "adopted": false
+    },{
+        "name": "Anubis",
+        "gender": "Macho",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "anubis",
+        "slides": ["anubis"],
+        "adopted": false
+    },{
+        "name": "Kheops",
+        "gender": "Macho",
+        "age": "2 meses (19/01/2017)",
+        "size": "Mediano",
+        "description": "Mix. Cachorrito de la perrita Hope",
+        "image" : "kheops",
+        "slides": ["kheops"],
+        "adopted": false
     }
     
 ]
