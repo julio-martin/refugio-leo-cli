@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Olivera",
+        "gender": "Hembra",
+        "age": "13 años",
+        "size": "Mediano",
+        "description": "Podenca. Vacunas al día. No castrada. Tiene 13 años, es la abuelita del Refugio, ¿queréis darle un hogar calentito donde pasar sus últimos años de vida?",
+        "image" : "olivera",
+        "slides": ["olivera","olivera2"],
+        "adopted": true
+    },{
+        "name": "Aimé",
+        "gender": "Macho",
+        "age": "7 años",
+        "size": "Mediano",
+        "description": "Buen comportamiento con perros y niños. 7 años de edad. Castrado y con todas las vacunas al día.",
+        "image" : "aime",
+        "slides": ["aime","aime2","aime3"],
+        "adopted": true
+    },{
+        "name": "Arón",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Mediano",
+        "description": "",
+        "image" : "aron",
+        "slides": ["aron"],
+        "adopted": true
+    }
+    
+]
