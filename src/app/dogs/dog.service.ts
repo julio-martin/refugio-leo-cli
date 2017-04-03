@@ -17,6 +17,12 @@ export class DogService {
 
     private _dogESUrl = './api/dogs/dogs_es.json';
 
+    private _dogAdoptedUrl = '';
+
+    private _dogAdoptedENUrl = './api/dogs/dogs_adopted_en.json';
+
+    private _dogAdoptedESUrl = './api/dogs/dogs_adopted_es.json';
+
     constructor(private _http: Http) {
         
     }
@@ -24,6 +30,13 @@ export class DogService {
     getDogs(language : string) : Observable<IDog[]> {
         this._dogUrl = (language === 'es' ? this._dogESUrl : this._dogENUrl);
         return this._http.get(this._dogUrl)
+            .map((response: Response) => <IDog[]> response.json())
+            .catch(this.handleError);
+    }
+
+    getAdoptedDogs(language : string) : Observable<IDog[]> {
+        this._dogAdoptedUrl = (language === 'es' ? this._dogAdoptedESUrl : this._dogAdoptedENUrl);
+        return this._http.get(this._dogAdoptedUrl)
             .map((response: Response) => <IDog[]> response.json())
             .catch(this.handleError);
     }

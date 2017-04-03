@@ -25,6 +25,7 @@ export function shuffle(dogs: IDog[]) : IDog[] {
 })
 export class DogListComponent implements OnInit {
     dogs: IDog[];
+    dogsAdopted: IDog[];
     errorMessage : string;
 
     onLangChange: EventEmitter<LangChangeEvent>;
@@ -45,6 +46,18 @@ export class DogListComponent implements OnInit {
         this._dogService.getDogs(this._translate.currentLang)
                 .subscribe(
                     dogs => this.dogs = shuffle(dogs),
+                    error => this.errorMessage = <any>error
+                );
+        this.onLangChange = this._translate.onLangChange.subscribe( (event: LangChangeEvent) => {
+            this._dogService.getAdoptedDogs(event.lang)
+                .subscribe(
+                    dogs => this.dogsAdopted = dogs,
+                    error => this.errorMessage = <any>error
+                );
+        });
+        this._dogService.getAdoptedDogs(this._translate.currentLang)
+                .subscribe(
+                    dogs => this.dogsAdopted = dogs,
                     error => this.errorMessage = <any>error
                 );
     }

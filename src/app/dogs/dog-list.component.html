@@ -2,6 +2,7 @@
 <h2>{{ 'DOGS.TITLE' | translate}}</h2>
 </div>
 <div class="card-container">
+    <!-- DOGS LOOKING FOR A FAMILY -->
     <md-card *ngFor="let dog of dogs">
       <md-card-title>{{dog.name}}</md-card-title>
       <div class="md-card-image">
@@ -13,14 +14,24 @@
       </md-card-content>
       </div>
       <md-card-actions align="end">
-        <div *ngIf="!dog.adopted">
         <a [routerLink]="['/dog', dog.name]">
         <button md-raised-button color="primary">+Info</button>
         </a>
-        </div>
-        <div *ngIf="dog.adopted">
+      </md-card-actions>
+    </md-card>
+    <!-- DOGS ADOPTED -->
+    <md-card *ngFor="let dog of dogsAdopted">
+      <md-card-title>{{dog.name}}</md-card-title>
+      <div class="md-card-image">
+      <img md-card-image [alt]="dog.name" src="./assets/images/dogs/{{dog.image}}/{{dog.slides[0]}}.jpg">
+      </div>
+      <div class="md-card-description">
+      <md-card-content>
+          {{dog.description}}
+      </md-card-content>
+      </div>
+      <md-card-actions align="end">
           <button md-raised-button color="accent">{{ 'DOGS.ADOPTED' | translate}}</button>
-        </div>
       </md-card-actions>
     </md-card>
   </div>

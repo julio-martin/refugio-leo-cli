@@ -26,7 +26,7 @@ What we are using
 - Angular CLI
 - Angular Flex Layout
 - Bootstrap
-- ng2-translate (Internationalization)
+- ngx-translate (Internationalization)
 - Google Analytics
 - Formspree (https://formspree.io) to send contact form
 
