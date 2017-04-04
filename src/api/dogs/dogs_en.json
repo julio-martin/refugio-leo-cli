@@ -1,17 +1,17 @@
 [
     {
-        "name": "Duke",
+        "name": "Duque",
         "gender": "Male",
-        "age": "1 year 6 months",
+        "age": "01/09/2015",
         "size": "Large",
         "description": "Crossbreed of September 2015. Neutered with all vaccines up to date. Prefers to be the only dog in the home.",
-        "image" : "duke",
-        "slides": ["duke4","duke2","duke3","duke"],
+        "image" : "duque",
+        "slides": ["duque4","duque2","duque3","duque"],
         "adopted": false
     },{
         "name": "Chica",
         "gender": "Female",
-        "age": "-",
+        "age": "02/02/2010",
         "size": "Large",
         "description": "About 30 Kg, excellent behavior. Neutered with all vaccines up to date.",
         "image" : "chica",
@@ -20,7 +20,7 @@
     },{
         "name": "Perla",
         "gender": "Female",
-        "age": "-",
+        "age": "01/05/2013",
         "size": "Medium",
         "description": "Cross Sharpei. Dominant with dogs, good behavior with people.",
         "image" : "perla",
@@ -29,7 +29,7 @@
     },{
         "name": "Maya",
         "gender": "Female",
-        "age": "-",
+        "age": "13/11/2014",
         "size": "Medium",
         "description": "Cross of labrador retriever. About 15 kg. Neutered with all vaccines up to date.",
         "image" : "maya",
@@ -38,7 +38,7 @@
     },{
         "name": "Lassie",
         "gender": "Female",
-        "age": "8 months",
+        "age": "01/06/2016",
         "size": "Medium",
         "description": "Collie. Very good character like a puppy",
         "image" : "lassie",
@@ -47,7 +47,7 @@
     },{
         "name": "Hope",
         "gender": "Female",
-        "age": "1 year",
+        "age": "01/01/2013",
         "size": "Medium",
         "description": "She has just had several puppies and she is in a home shelter.",
         "image" : "hope",
@@ -56,16 +56,16 @@
     },{
         "name": "Fito",
         "gender": "Male",
-        "age": "-",
+        "age": "01/05/2016",
         "size": "Large",
         "description": "Cross of galgo. About 12kg. Good behavior, very calm and affectionate.",
         "image" : "fito",
-        "slides": ["fito","fito2","fito3"],
+        "slides": ["fito","fito2","fito3", "fito4"],
         "adopted": false
     },{
         "name": "Arianne",
         "gender": "Female",
-        "age": "3 years",
+        "age": "15/02/2014",
         "size": "Large",
         "description": "Neutered with all vaccines up to date.",
         "image" : "arianne",
@@ -74,7 +74,7 @@
     },{
         "name": "Podencos",
         "gender": "Female/Male",
-        "age": "3 months",
+        "age": "01/12/2016 and 24/12/2016",
         "size": "Medium",
         "description": "5 puppies podencos",
         "image" : "podencos",
@@ -83,7 +83,7 @@
     },{
         "name": "Candy",
         "gender": "Female",
-        "age": "8 years",
+        "age": "22/12/2008",
         "size": "Small",
         "description": "Mix yorkshire. Neutered with all vaccines up to date.",
         "image" : "candy",
@@ -92,7 +92,7 @@
     },{
         "name": "Feria",
         "gender": "Female",
-        "age": "2 years and a half",
+        "age": "07/09/2014",
         "size": "Small",
         "description": "Mix yorkshire. Neutered with all vaccines up to date.",
         "image" : "feria",
@@ -101,7 +101,7 @@
     },{
         "name": "Romeo",
         "gender": "Male",
-        "age": "5 years (01/01/2012)",
+        "age": "01/01/2012",
         "size": "Small",
         "description": "Mix shitzu. Neutered with all vaccines up to date.",
         "image" : "romeo",
@@ -110,7 +110,7 @@
     },{
         "name": "Toby",
         "gender": "Male",
-        "age": "1 year and a half (01/01/2016)",
+        "age": "01/01/2016",
         "size": "Medium",
         "description": "Mix podenco. Neutered with all vaccines up to date.",
         "image" : "toby",
@@ -119,7 +119,7 @@
     },{
         "name": "Venus",
         "gender": "Female",
-        "age": "1 year (20/04/2016)",
+        "age": "20/04/2016",
         "size": "Medium",
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "venus",
@@ -128,7 +128,7 @@
     },{
         "name": "RosaDajana",
         "gender": "Female",
-        "age": "2 years and a half (01/01/2015)",
+        "age": "01/01/2015",
         "size": "Medium",
         "description": "Mix Argentinian Dogo and Pitbull.",
         "image" : "rosadajana",
@@ -137,7 +137,7 @@
     },{
         "name": "Zirko",
         "gender": "Male",
-        "age": "2 years and a half (01/01/2015)",
+        "age": "01/01/2015",
         "size": "Medium",
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "zirko",
@@ -146,16 +146,16 @@
     },{
         "name": "Ramsés",
         "gender": "Male",
-        "age": "1 year and a half (01/01/2016)",
+        "age": "01/01/2016",
         "size": "Large",
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "ramses",
-        "slides": ["ramses"],
+        "slides": ["ramses", "ramses2", "ramses3", "ramses4"],
         "adopted": false
     },{
         "name": "Syriah",
         "gender": "Female",
-        "age": "2 years and a half (26/01/2015)",
+        "age": "26/01/2015",
         "size": "Medium",
         "description": "Mix American Staffordshire and Bull-Terrier.",
         "image" : "syriah",
@@ -164,7 +164,7 @@
     },{
         "name": "Plata",
         "gender": "Female",
-        "age": "2 years and a half (01/01/2015)",
+        "age": "01/01/2015",
         "size": "Medium",
         "description": "Argentinian Dogo. Neutered with all vaccines up to date.",
         "image" : "plata",
@@ -173,7 +173,7 @@
     },{
         "name": "Hera",
         "gender": "Female",
-        "age": "1 year (20/02/2016)",
+        "age": "20/02/2016",
         "size": "Large",
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "hera",
@@ -182,7 +182,7 @@
     },{
         "name": "KingYakari",
         "gender": "Male",
-        "age": "1 year and a half (01/01/2016)",
+        "age": "01/01/2016",
         "size": "Medium",
         "description": "Mix pastor. Neutered with all vaccines up to date.",
         "image" : "kingyakari",
@@ -191,7 +191,7 @@
     },{
         "name": "SerenaLisa",
         "gender": "Female",
-        "age": "4 years (20/05/2013)",
+        "age": "20/05/2013",
         "size": "Large",
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "serenalisa",
@@ -200,7 +200,7 @@
     },{
         "name": "Bella",
         "gender": "Female",
-        "age": "2 months (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "bella",
@@ -209,7 +209,7 @@
     },{
         "name": "Aline",
         "gender": "Female",
-        "age": "2 months (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "aline",
@@ -218,7 +218,7 @@
     },{
         "name": "Cindy",
         "gender": "Female",
-        "age": "2 months (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "cindy",
@@ -227,7 +227,7 @@
     },{
         "name": "Erika",
         "gender": "Female",
-        "age": "2 months (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "erika",
@@ -236,7 +236,7 @@
     },{
         "name": "Dora",
         "gender": "Female",
-        "age": "2 months (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "dora",
@@ -245,7 +245,7 @@
     },{
         "name": "Jenny",
         "gender": "Female",
-        "age": "2 months (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "jenny",
@@ -253,8 +253,8 @@
         "adopted": false
     },{
         "name": "Anubis",
-        "gender": "Macho",
-        "age": "2 months (19/01/2017)",
+        "gender": "Male",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "anubis",
@@ -262,8 +262,8 @@
         "adopted": false
     },{
         "name": "Kheops",
-        "gender": "Macho",
-        "age": "2 months (19/01/2017)",
+        "gender": "Male",
+        "age": "19/01/2017",
         "size": "Medium",
         "description": "Mix. Puppy of dog Hope",
         "image" : "kheops",
@@ -271,12 +271,30 @@
         "adopted": false
     },{
         "name": "Leo",
-        "gender": "Macho",
-        "age": "3 months (01/01/2017)",
+        "gender": "Male",
+        "age": "01/01/2017",
         "size": "Medium",
         "description": "Mix of Podenco.",
         "image" : "leo",
         "slides": ["leo", "leo2", "leo3"],
+        "adopted": false
+    },{
+        "name": "León",
+        "gender": "Male",
+        "age": "22/11/2016",
+        "size": "Small",
+        "description": "Mix.",
+        "image" : "leon",
+        "slides": ["leon", "leon2", "leon3", "leon4"],
+        "adopted": false
+    },{
+        "name": "Rina",
+        "gender": "Female",
+        "age": "01/01/2015",
+        "size": "Small",
+        "description": "Mix.",
+        "image" : "rina",
+        "slides": ["rina", "rina2"],
         "adopted": false
     }
     
