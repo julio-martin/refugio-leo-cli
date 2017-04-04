@@ -1,17 +1,17 @@
 [
     {
-        "name": "Duke",
+        "name": "Duque",
         "gender": "Macho",
-        "age": "año y medio",
+        "age": "01/09/2015",
         "size": "Grande",
         "description": "Mestizo del 01/09/2015. Castrado y con todas las vacunas al día. Excelente comportamiento con personas, dominante con perros.",
-        "image" : "duke",
-        "slides": ["duke4","duke2","duke3","duke"],
+        "image" : "duque",
+        "slides": ["duque4","duque2","duque3","duque"],
         "adopted": false
     },{
         "name": "Chica",
         "gender": "Hembra",
-        "age": "-",
+        "age": "02/02/2010",
         "size": "Grande",
         "description": "Sobre 30 Kg, excelente comportamiento. Castrada y con vacunas al día.",
         "image" : "chica",
@@ -20,7 +20,7 @@
     },{
         "name": "Perla",
         "gender": "Hembra",
-        "age": "-",
+        "age": "01/05/2013",
         "size": "Mediano",
         "description": "Mix Sharpei. Dominante con perros, con personas buen comportamiento.",
         "image" : "perla",
@@ -29,7 +29,7 @@
     },{
         "name": "Maya",
         "gender": "Hembra",
-        "age": "-",
+        "age": "13/11/2014",
         "size": "Mediano",
         "description": "Mix de labrador. Sobre 15 kg. Castrada y con vacunas al día.",
         "image" : "maya",
@@ -38,7 +38,7 @@
     },{
         "name": "Lassie",
         "gender": "Hembra",
-        "age": "8 meses",
+        "age": "01/06/2016",
         "size": "Mediano",
         "description": "Collie de 8 meses. Muy buen carácter,típico de un cachorro.",
         "image" : "lassie",
@@ -47,7 +47,7 @@
     },{
         "name": "Hope",
         "gender": "Hembra",
-        "age": "1 año",
+        "age": "01/01/2013",
         "size": "Mediano",
         "description": "Acaba de tener cachorros y está en una casa de acogida.",
         "image" : "hope",
@@ -56,16 +56,16 @@
     },{
         "name": "Fito",
         "gender": "Macho",
-        "age": "-",
+        "age": "01/05/2016",
         "size": "Grande",
         "description": "Mix de galgo. 12kg. Buen comportamiento, muy tranquilo y cariñoso.",
         "image" : "fito",
-        "slides": ["fito","fito2","fito3"],
+        "slides": ["fito","fito2","fito3", "fito4"],
         "adopted": false
     },{
         "name": "Arianne",
         "gender": "Hembra",
-        "age": "3 años",
+        "age": "15/02/2014",
         "size": "Grande",
         "description": "Castrada y con vacunas al día.",
         "image" : "arianne",
@@ -74,7 +74,7 @@
     },{
         "name": "Podencos",
         "gender": "Hembra/Macho",
-        "age": "3 meses",
+        "age": "01/12/2016 y 24/12/2016",
         "size": "Mediano",
         "description": "5 cachorritos podencos",
         "image" : "podencos",
@@ -83,7 +83,7 @@
     },{
         "name": "Candy",
         "gender": "Hembra",
-        "age": "8 años",
+        "age": "22/12/2008",
         "size": "Pequeño",
         "description": "Mix yorkshire. Castrada y con vacunas al día.",
         "image" : "candy",
@@ -92,7 +92,7 @@
     },{
         "name": "Feria",
         "gender": "Hembra",
-        "age": "2 años y medio",
+        "age": "07/09/2014",
         "size": "Pequeño",
         "description": "Mix yorkshire. Castrada y con vacunas al día.",
         "image" : "feria",
@@ -101,7 +101,7 @@
     },{
         "name": "Romeo",
         "gender": "Macho",
-        "age": "5 años (01/01/2012)",
+        "age": "01/01/2012",
         "size": "Pequeño",
         "description": "Mix shitzu. Castrado y con vacunas al día.",
         "image" : "romeo",
@@ -110,7 +110,7 @@
     },{
         "name": "Toby",
         "gender": "Macho",
-        "age": "1 año y medio (01/01/2016)",
+        "age": "01/01/2016",
         "size": "Mediano",
         "description": "Mix podenco. Castrado y con vacunas al día.",
         "image" : "toby",
@@ -119,7 +119,7 @@
     },{
         "name": "Venus",
         "gender": "Hembra",
-        "age": "1 año (20/04/2016)",
+        "age": "20/04/2016",
         "size": "Mediano",
         "description": "Cruce. Castrada y con vacunas al día.",
         "image" : "venus",
@@ -128,7 +128,7 @@
     },{
         "name": "RosaDajana",
         "gender": "Hembra",
-        "age": "2 años y medio (01/01/2015)",
+        "age": "01/01/2015",
         "size": "Mediano",
         "description": "Mix Dogo Argentino y Pitbull.",
         "image" : "rosadajana",
@@ -137,7 +137,7 @@
     },{
         "name": "Zirko",
         "gender": "Macho",
-        "age": "2 años y medio (01/01/2015)",
+        "age": "01/01/2015",
         "size": "Mediano",
         "description": "Cruce. Castrado y con vacunas al día.",
         "image" : "zirko",
@@ -146,16 +146,16 @@
     },{
         "name": "Ramsés",
         "gender": "Macho",
-        "age": "1 año y medio (01/01/2016)",
+        "age": "01/01/2016",
         "size": "Grande",
         "description": "Cruce. Castrado y con vacunas al día.",
         "image" : "ramses",
-        "slides": ["ramses"],
+        "slides": ["ramses", "ramses2", "ramses3", "ramses4"],
         "adopted": false
     },{
         "name": "Syriah",
         "gender": "Hembra",
-        "age": "2 años y medio (26/01/2015)",
+        "age": "26/01/2015",
         "size": "Medium",
         "description": "Mix American Staffordshire y Bull-Terrier.",
         "image" : "syriah",
@@ -164,7 +164,7 @@
     },{
         "name": "Plata",
         "gender": "Hembra",
-        "age": "2 años y medio (01/01/2015)",
+        "age": "01/01/2015",
         "size": "Mediano",
         "description": "Dogo Argentino. Castrada y con vacunas al día.",
         "image" : "plata",
@@ -173,7 +173,7 @@
     },{
         "name": "Hera",
         "gender": "Hembra",
-        "age": "1 año (20/02/2016)",
+        "age": "20/02/2016",
         "size": "Grande",
         "description": "Mix. Castrada y con vacunas al día.",
         "image" : "hera",
@@ -182,7 +182,7 @@
     },{
         "name": "KingYakari",
         "gender": "Macho",
-        "age": "1 año y medio (01/01/2016)",
+        "age": "01/01/2016",
         "size": "Medium",
         "description": "Mix pastor. Castrado y con vacunas al día.",
         "image" : "kingyakari",
@@ -191,7 +191,7 @@
     },{
         "name": "SerenaLisa",
         "gender": "Hembra",
-        "age": "4 años (20/05/2013)",
+        "age": "20/05/2013",
         "size": "Grande",
         "description": "Mix. Castrada y con vacunas al día.",
         "image" : "serenalisa",
@@ -200,16 +200,16 @@
     },{
         "name": "Bella",
         "gender": "Hembra",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "bella",
-        "slides": ["bella"],
+        "slides": ["bella", "bella2", "bella3", "bella4"],
         "adopted": false
     },{
         "name": "Aline",
         "gender": "Hembra",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "aline",
@@ -218,7 +218,7 @@
     },{
         "name": "Cindy",
         "gender": "Hembra",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "cindy",
@@ -227,7 +227,7 @@
     },{
         "name": "Erika",
         "gender": "Hembra",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "erika",
@@ -236,7 +236,7 @@
     },{
         "name": "Dora",
         "gender": "Hembra",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "dora",
@@ -245,7 +245,7 @@
     },{
         "name": "Jenny",
         "gender": "Hembra",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "jenny",
@@ -254,7 +254,7 @@
     },{
         "name": "Anubis",
         "gender": "Macho",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "anubis",
@@ -263,7 +263,7 @@
     },{
         "name": "Kheops",
         "gender": "Macho",
-        "age": "2 meses (19/01/2017)",
+        "age": "19/01/2017",
         "size": "Mediano",
         "description": "Mix. Cachorrito de la perrita Hope",
         "image" : "kheops",
@@ -272,11 +272,29 @@
     },{
         "name": "Leo",
         "gender": "Macho",
-        "age": "3 meses (01/01/2017)",
+        "age": "03/01/2017",
         "size": "Mediano",
         "description": "Cruce de podenco.",
         "image" : "leo",
         "slides": ["leo", "leo2", "leo3"],
+        "adopted": false
+    },{
+        "name": "León",
+        "gender": "Macho",
+        "age": "22/11/2016",
+        "size": "Pequeño",
+        "description": "Cruce.",
+        "image" : "leon",
+        "slides": ["leon", "leon2", "leon3", "leon4"],
+        "adopted": false
+    },{
+        "name": "Rina",
+        "gender": "Hembra",
+        "age": "01/01/2015",
+        "size": "Pequeño",
+        "description": "Cruce.",
+        "image" : "rina",
+        "slides": ["rina", "rina2"],
         "adopted": false
     }
     
