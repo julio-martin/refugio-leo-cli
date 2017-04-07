@@ -1,7 +1,7 @@
 import { Component,ChangeDetectionStrategy } from '@angular/core';
 
 import {DogService} from './dogs/dog.service';
-import {TranslateService} from 'ng2-translate';
+import {TranslateService} from '@ngx-translate/core';
 import { Router, NavigationEnd } from '@angular/router';
 declare let ga: Function;
 

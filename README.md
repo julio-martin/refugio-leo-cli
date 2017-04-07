@@ -20,7 +20,7 @@ TODO List
 
 What we are using
 =================
-- Angular 2
+- Angular
 - Github-Pages
 - Material Design
 - Angular CLI

@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
-import {TranslateModule, TranslateLoader, TranslateStaticLoader} from 'ng2-translate';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { HttpModule, Http } from '@angular/http';
 
 export function createTranslateLoader(http: Http) {
-    return new TranslateStaticLoader(http, 'assets/i18n', '.json');
+    return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
 }
 
 @NgModule({
     imports: [
         TranslateModule.forRoot({
-      provide: TranslateLoader,
-    useFactory: (createTranslateLoader),
-            deps: [Http]
+            loader: {
+                provide: TranslateLoader,
+                useFactory: (createTranslateLoader),
+                deps: [Http]
+            }
     }),
     ],
     exports: [

@@ -3,7 +3,7 @@ import { Http, RequestOptions, Headers} from '@angular/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import {TranslateService} from 'ng2-translate';
+import {TranslateService} from '@ngx-translate/core';
 import 'rxjs/add/observable/throw';
 import 'rxjs/add/operator/catch';
 import { ContactInfo }    from './contact-info';

@@ -1,5 +1,5 @@
 import {Component, OnInit, EventEmitter } from '@angular/core';
-import {LangChangeEvent, TranslateService, TranslateModule} from 'ng2-translate';
+import {LangChangeEvent, TranslateService, TranslateModule} from '@ngx-translate/core';
 
 import { IDog } from './dog';
 import {DogService} from './dog.service';

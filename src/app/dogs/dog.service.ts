@@ -6,7 +6,7 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/do';
 
 import { IDog } from './dog';
-import {TranslateService, LangChangeEvent} from 'ng2-translate';
+import {TranslateService, LangChangeEvent} from '@ngx-translate/core';
 
 @Injectable()
 export class DogService {

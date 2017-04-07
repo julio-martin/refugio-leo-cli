@@ -5,7 +5,7 @@ import { Subscription }       from 'rxjs/Subscription';
 
 import { IDog } from './dog';
 import {DogService} from './dog.service';
-import {TranslateService} from 'ng2-translate';
+import {TranslateService} from '@ngx-translate/core';
 import { Data } from "../data";
 
 @Component({
