@@ -35,6 +35,9 @@
           "DESCRIPTION": "¿Hablamos?"
       }
   },
+  "NOTFOUND" : {
+    "MESSAGE": "Página no encontrada, intenta navegando desde la home"
+  },
   "CONTACT" : {
     "TITLE": "¿Hablamos?",
     "SUBTITLE" : "Puedes contactarnos a través de nuestro formulario, por email o por cualquiera de nuestras redes sociales.",
