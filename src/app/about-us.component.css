@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px auto 0;
+    justify-content: center;
+}
+
+md-card {
+  width: 350px;
+  box-sizing: border-box;
+  margin: 16px;
+}
+
+div.md-card-image {
+  padding-top: 10px;
+  height: 350px;
+}
+
+div.md-card-description {
+  height: 100px;
+}

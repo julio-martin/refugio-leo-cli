@@ -20,7 +20,8 @@
         "manifest.json",
         "mstile-150x150.png",
         "safari-pinned-tab.svg",
-        "robots.txt"
+        "robots.txt",
+        "sitemap.xml"
       ],
       "index": "index.html",
       "main": "main.ts",
