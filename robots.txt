@@ -42,3 +42,5 @@ Disallow: /nosotros
 Disallow: /colabora
 Disallow: /contacto
 Allow: /
+
+Sitemap: http://www.elrefugiodeleo.com/sitemap.xml
