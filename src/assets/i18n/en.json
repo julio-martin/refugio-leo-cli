@@ -35,6 +35,9 @@
           "DESCRIPTION": "Follow us"
       }
   },
+  "NOTFOUND" : {
+    "MESSAGE": "Page not found, try to navigate from homepage"
+  },
   "CONTACT" : {
     "TITLE": "Contact?",
     "SUBTITLE" : "You can contact us by Social Media or our contact form.",
