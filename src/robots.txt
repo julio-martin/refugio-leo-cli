@@ -1,0 +1,44 @@
+User-Agent: Googlebot-News
+Disallow: /dogs
+Disallow: /nosotros
+Disallow: /colabora
+Disallow: /contacto
+Allow: /
+
+User-Agent: Googlebot-Image
+Disallow: /dogs
+Disallow: /nosotros
+Disallow: /colabora
+Disallow: /contacto
+Allow: /
+
+User-Agent: Googlebot-Video
+Disallow: /
+
+User-Agent: Googlebot
+Disallow: /dogs
+Disallow: /nosotros
+Disallow: /colabora
+Disallow: /contacto
+Allow: /
+
+User-Agent: Googlebot-Mobile
+Disallow: /dogs
+Disallow: /nosotros
+Disallow: /colabora
+Disallow: /contacto
+Allow: /
+
+User-Agent: Mediapartners-Google
+Disallow: /dogs
+Disallow: /nosotros
+Disallow: /colabora
+Disallow: /contacto
+Allow: /
+
+User-Agent: Adsbot-Google
+Disallow: /dogs
+Disallow: /nosotros
+Disallow: /colabora
+Disallow: /contacto
+Allow: /

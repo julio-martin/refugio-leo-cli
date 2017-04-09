@@ -1,5 +1,40 @@
 <div class="container">
     <h2>{{ 'ABOUTUS.TITLE' | translate }}</h2>
     <h3>{{ 'ABOUTUS.HISTORY.TITLE' | translate }}</h3>
-    <p>{{ 'ABOUTUS.HISTORY.MESSAGE' | translate }}</p>
+    <p [innerHTML]="'ABOUTUS.HISTORY.MESSAGE' | translate"></p>
 </div>
+<div class="card-container">
+    <md-card>
+      <md-card-title>Maya</md-card-title>
+      <div class="md-card-image">
+      <img md-card-image alt="maya" src="./assets/images/dogs/maya/maya.jpg">
+      </div>
+      <md-card-actions align="end">
+        <a [routerLink]="'/dog/Maya'">
+        <button md-raised-button color="primary">+Info</button>
+        </a>
+      </md-card-actions>
+    </md-card>
+    <md-card>
+      <md-card-title>Fito</md-card-title>
+      <div class="md-card-image">
+      <img md-card-image alt="fito" src="./assets/images/dogs/fito/fito.jpg">
+      </div>
+      <md-card-actions align="end">
+        <a [routerLink]="'/dog/Fito'">
+        <button md-raised-button color="primary">+Info</button>
+        </a>
+      </md-card-actions>
+    </md-card>
+    <md-card>
+      <md-card-title>Hera</md-card-title>
+      <div class="md-card-image">
+      <img md-card-image alt="hera" src="./assets/images/dogs/hera/hera.jpg">
+      </div>
+      <md-card-actions align="end">
+        <a [routerLink]="'/dog/Hera'">
+        <button md-raised-button color="primary">+Info</button>
+        </a>
+      </md-card-actions>
+    </md-card>
+  </div>
