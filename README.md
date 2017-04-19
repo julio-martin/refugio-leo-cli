@@ -21,7 +21,7 @@ TODO List
 What we are using
 =================
 - Angular
-- Github-Pages
+- Github-Pages (migratin to Heroku)
 - Material Design
 - Angular CLI
 - Angular Flex Layout
@@ -29,6 +29,7 @@ What we are using
 - ngx-translate (Internationalization)
 - Google Analytics
 - Formspree (https://formspree.io) to send contact form
+- Express Server
 
 About me
 ===============
