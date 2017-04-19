@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { MaterialModule } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { CarouselModule } from 'ng2-bootstrap/carousel';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SharedModule} from '../shared.module';
 import {DogListComponent} from './dog-list.component';
