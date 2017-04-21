@@ -21,7 +21,8 @@
         "mstile-150x150.png",
         "safari-pinned-tab.svg",
         "robots.txt",
-        "sitemap.xml"
+        "sitemap.xml",
+        "CNAME"
       ],
       "index": "index.html",
       "main": "main.ts",
