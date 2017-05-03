@@ -26,6 +26,42 @@
         "image" : "aron",
         "slides": ["aron"],
         "adopted": true
+    },{
+        "name": "Candy",
+        "gender": "Female",
+        "age": "22/12/2008",
+        "size": "Small",
+        "description": "Mix yorkshire. Neutered with all vaccines up to date.",
+        "image" : "candy",
+        "slides": ["candy"],
+        "adopted": false
+    },{
+        "name": "Feria",
+        "gender": "Female",
+        "age": "07/09/2014",
+        "size": "Small",
+        "description": "Mix yorkshire. Neutered with all vaccines up to date.",
+        "image" : "feria",
+        "slides": ["feria"],
+        "adopted": false
+    },{
+        "name": "Venus",
+        "gender": "Female",
+        "age": "20/04/2016",
+        "size": "Medium",
+        "description": "Mix. Neutered with all vaccines up to date.",
+        "image" : "venus",
+        "slides": ["venus"],
+        "adopted": false
+    },{
+        "name": "Zirko",
+        "gender": "Male",
+        "age": "01/01/2015",
+        "size": "Medium",
+        "description": "Mix. Neutered with all vaccines up to date.",
+        "image" : "zirko",
+        "slides": ["zirko"],
+        "adopted": false
     }
     
 ]

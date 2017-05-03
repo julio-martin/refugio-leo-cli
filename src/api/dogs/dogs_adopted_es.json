@@ -26,6 +26,42 @@
         "image" : "aron",
         "slides": ["aron"],
         "adopted": true
+    },{
+        "name": "Candy",
+        "gender": "Hembra",
+        "age": "22/12/2008",
+        "size": "Pequeño",
+        "description": "Mix yorkshire. Castrada y con vacunas al día.",
+        "image" : "candy",
+        "slides": ["candy"],
+        "adopted": false
+    },{
+        "name": "Feria",
+        "gender": "Hembra",
+        "age": "07/09/2014",
+        "size": "Pequeño",
+        "description": "Mix yorkshire. Castrada y con vacunas al día.",
+        "image" : "feria",
+        "slides": ["feria"],
+        "adopted": false
+    },{
+        "name": "Venus",
+        "gender": "Hembra",
+        "age": "20/04/2016",
+        "size": "Mediano",
+        "description": "Cruce. Castrada y con vacunas al día.",
+        "image" : "venus",
+        "slides": ["venus"],
+        "adopted": false
+    },{
+        "name": "Zirko",
+        "gender": "Macho",
+        "age": "01/01/2015",
+        "size": "Mediano",
+        "description": "Cruce. Castrado y con vacunas al día.",
+        "image" : "zirko",
+        "slides": ["zirko"],
+        "adopted": false
     }
     
 ]
