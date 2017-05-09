@@ -63,15 +63,6 @@
         "slides": ["fito","fito2","fito3", "fito4"],
         "adopted": false
     },{
-        "name": "Arianne",
-        "gender": "Hembra",
-        "age": "15/02/2014",
-        "size": "Grande",
-        "description": "Castrada y con vacunas al día.",
-        "image" : "arianne",
-        "slides": ["arianne3","arianne","arianne2"],
-        "adopted": false
-    },{
         "name": "Podencos",
         "gender": "Hembra/Macho",
         "age": "01/12/2016 y 24/12/2016",

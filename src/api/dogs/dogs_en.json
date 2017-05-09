@@ -63,15 +63,6 @@
         "slides": ["fito","fito2","fito3", "fito4"],
         "adopted": false
     },{
-        "name": "Arianne",
-        "gender": "Female",
-        "age": "15/02/2014",
-        "size": "Large",
-        "description": "Neutered with all vaccines up to date.",
-        "image" : "arianne",
-        "slides": ["arianne3","arianne","arianne2"],
-        "adopted": false
-    },{
         "name": "Podencos",
         "gender": "Female/Male",
         "age": "01/12/2016 and 24/12/2016",

@@ -34,7 +34,7 @@
         "description": "Mix yorkshire. Neutered with all vaccines up to date.",
         "image" : "candy",
         "slides": ["candy"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Feria",
         "gender": "Female",
@@ -43,7 +43,7 @@
         "description": "Mix yorkshire. Neutered with all vaccines up to date.",
         "image" : "feria",
         "slides": ["feria"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Venus",
         "gender": "Female",
@@ -52,7 +52,7 @@
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "venus",
         "slides": ["venus"],
-        "adopted": false
+        "adopted": true
     },{
         "name": "Zirko",
         "gender": "Male",
@@ -61,7 +61,16 @@
         "description": "Mix. Neutered with all vaccines up to date.",
         "image" : "zirko",
         "slides": ["zirko"],
-        "adopted": false
+        "adopted": true
+    },{
+        "name": "Arianne",
+        "gender": "Female",
+        "age": "15/02/2014",
+        "size": "Large",
+        "description": "Neutered with all vaccines up to date.",
+        "image" : "arianne",
+        "slides": ["arianne3","arianne","arianne2"],
+        "adopted": true
     }
     
 ]
