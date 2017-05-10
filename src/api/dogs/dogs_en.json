@@ -251,6 +251,69 @@
         "image" : "rina",
         "slides": ["rina", "rina2"],
         "adopted": false
+    },{
+        "name": "Guschti",
+        "gender": "Male",
+        "age": "-",
+        "size": "Large",
+        "description": "Mix mastin.",
+        "image" : "guschti",
+        "slides": ["guschti"],
+        "adopted": false
+    },{
+        "name": "Hercules",
+        "gender": "Male",
+        "age": "-",
+        "size": "Medium",
+        "description": "Mix",
+        "image" : "hercules",
+        "slides": ["hercules"],
+        "adopted": false
+    },{
+        "name": "Lango",
+        "gender": "Male",
+        "age": "-",
+        "size": "Large",
+        "description": "Mix",
+        "image" : "lango",
+        "slides": ["lango"],
+        "adopted": false
+    },{
+        "name": "Moma",
+        "gender": "Female",
+        "age": "-",
+        "size": "Medium",
+        "description": "Mix",
+        "image" : "moma",
+        "slides": ["moma"],
+        "adopted": false
+    },{
+        "name": "Princesa",
+        "gender": "Female",
+        "age": "-",
+        "size": "Small",
+        "description": "Mix",
+        "image" : "princesa",
+        "slides": ["princesa"],
+        "adopted": false
+    },{
+        "name": "Staffi",
+        "gender": "Female",
+        "age": "-",
+        "size": "Medium",
+        "description": "Mix",
+        "image" : "staffi",
+        "slides": ["staffi"],
+        "adopted": false
+    },{
+        "name": "Pitu",
+        "gender": "Male",
+        "age": "-",
+        "size": "Medium",
+        "description": "Mix",
+        "image" : "pitu",
+        "slides": ["pitu", "pitu2"],
+        "adopted": false
     }
     
 ]

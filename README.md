@@ -9,6 +9,7 @@ You can help them with donations, teaming (https://www.teaming.net/refugiodeleo)
 TODO List
 ===============
 - SEO and sitemap
+- Lazy loading of images
 - Center vertically carousel images
 - Filter Cards by size, gender and age
 - Prerender (Angular 2 Universal???)
@@ -21,7 +22,7 @@ TODO List
 What we are using
 =================
 - Angular
-- Github-Pages (migratin to Heroku)
+- Heroku
 - Material Design
 - Angular CLI
 - Angular Flex Layout

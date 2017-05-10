@@ -251,6 +251,69 @@
         "image" : "rina",
         "slides": ["rina", "rina2"],
         "adopted": false
+    },{
+        "name": "Guschti",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Grande",
+        "description": "Cruce mastín.",
+        "image" : "guschti",
+        "slides": ["guschti"],
+        "adopted": false
+    },{
+        "name": "Hercules",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Mediano",
+        "description": "Cruce",
+        "image" : "hercules",
+        "slides": ["hercules"],
+        "adopted": false
+    },{
+        "name": "Lango",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Grande",
+        "description": "Cruce",
+        "image" : "lango",
+        "slides": ["lango"],
+        "adopted": false
+    },{
+        "name": "Moma",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Mediano",
+        "description": "Cruce",
+        "image" : "moma",
+        "slides": ["moma"],
+        "adopted": false
+    },{
+        "name": "Princesa",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Pequeño",
+        "description": "Cruce",
+        "image" : "princesa",
+        "slides": ["princesa"],
+        "adopted": false
+    },{
+        "name": "Staffi",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Mediano",
+        "description": "-",
+        "image" : "staffi",
+        "slides": ["staffi"],
+        "adopted": false
+    },{
+        "name": "Pitu",
+        "gender": "Macho",
+        "age": "-",
+        "size": "Mediano",
+        "description": "Cruce",
+        "image" : "pitu",
+        "slides": ["pitu", "pitu2"],
+        "adopted": false
     }
     
 ]
