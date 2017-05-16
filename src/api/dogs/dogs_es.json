@@ -36,33 +36,6 @@
         "slides": ["maya","maya2, maya3"],
         "adopted": false
     },{
-        "name": "Lassie",
-        "gender": "Hembra",
-        "age": "01/06/2016",
-        "size": "Mediano",
-        "description": "Collie de 8 meses. Muy buen carácter,típico de un cachorro.",
-        "image" : "lassie",
-        "slides": ["lassie","lassie2","lassie3","lassie4"],
-        "adopted": false
-    },{
-        "name": "Hope",
-        "gender": "Hembra",
-        "age": "01/01/2013",
-        "size": "Mediano",
-        "description": "Acaba de tener cachorros y está en una casa de acogida.",
-        "image" : "hope",
-        "slides": ["hope","hope2","hope3"],
-        "adopted": false
-    },{
-        "name": "Fito",
-        "gender": "Macho",
-        "age": "01/05/2016",
-        "size": "Grande",
-        "description": "Mix de galgo. 12kg. Buen comportamiento, muy tranquilo y cariñoso.",
-        "image" : "fito",
-        "slides": ["fito","fito2","fito3", "fito4"],
-        "adopted": false
-    },{
         "name": "Podencos",
         "gender": "Hembra/Macho",
         "age": "01/12/2016 y 24/12/2016",
@@ -313,6 +286,15 @@
         "description": "Cruce",
         "image" : "pitu",
         "slides": ["pitu", "pitu2"],
+        "adopted": false
+    },{
+        "name": "Dona",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Mediano",
+        "description": "Bodeguero",
+        "image" : "dona",
+        "slides": ["dona","dona2","dona3","dona4"],
         "adopted": false
     }
     

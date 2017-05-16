@@ -6,7 +6,7 @@
         "size": "Mediano",
         "description": "Podenca. Vacunas al día. No castrada. Tiene 13 años, es la abuelita del Refugio, ¿queréis darle un hogar calentito donde pasar sus últimos años de vida?",
         "image" : "olivera",
-        "slides": ["olivera","olivera2"],
+        "slides": ["olivera"],
         "adopted": true
     },{
         "name": "Aimé",
@@ -15,7 +15,7 @@
         "size": "Mediano",
         "description": "Buen comportamiento con perros y niños. 7 años de edad. Castrado y con todas las vacunas al día.",
         "image" : "aime",
-        "slides": ["aime","aime2","aime3"],
+        "slides": ["aime"],
         "adopted": true
     },{
         "name": "Arón",
@@ -69,8 +69,35 @@
         "size": "Grande",
         "description": "Castrada y con vacunas al día.",
         "image" : "arianne",
-        "slides": ["arianne3","arianne","arianne2"],
+        "slides": ["arianne3"],
         "adopted": true
+    },{
+        "name": "Hope",
+        "gender": "Hembra",
+        "age": "01/01/2013",
+        "size": "Mediano",
+        "description": "Acaba de tener cachorros y está en una casa de acogida.",
+        "image" : "hope",
+        "slides": ["hope"],
+        "adopted": false
+    },{
+        "name": "Fito",
+        "gender": "Macho",
+        "age": "01/05/2016",
+        "size": "Grande",
+        "description": "Mix de galgo. 12kg. Buen comportamiento, muy tranquilo y cariñoso.",
+        "image" : "fito",
+        "slides": ["fito"],
+        "adopted": false
+    },{
+        "name": "Lassie",
+        "gender": "Hembra",
+        "age": "01/06/2016",
+        "size": "Mediano",
+        "description": "Collie de 8 meses. Muy buen carácter,típico de un cachorro.",
+        "image" : "lassie",
+        "slides": ["lassie"],
+        "adopted": false
     }
     
 ]

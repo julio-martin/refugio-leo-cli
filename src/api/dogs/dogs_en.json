@@ -36,33 +36,6 @@
         "slides": ["maya","maya2", "maya3"],
         "adopted": false
     },{
-        "name": "Lassie",
-        "gender": "Female",
-        "age": "01/06/2016",
-        "size": "Medium",
-        "description": "Collie. Very good character like a puppy",
-        "image" : "lassie",
-        "slides": ["lassie","lassie2","lassie3","lassie4"],
-        "adopted": false
-    },{
-        "name": "Hope",
-        "gender": "Female",
-        "age": "01/01/2013",
-        "size": "Medium",
-        "description": "She has just had several puppies and she is in a home shelter.",
-        "image" : "hope",
-        "slides": ["hope","hope2","hope3"],
-        "adopted": false
-    },{
-        "name": "Fito",
-        "gender": "Male",
-        "age": "01/05/2016",
-        "size": "Large",
-        "description": "Cross of galgo. About 12kg. Good behavior, very calm and affectionate.",
-        "image" : "fito",
-        "slides": ["fito","fito2","fito3", "fito4"],
-        "adopted": false
-    },{
         "name": "Podencos",
         "gender": "Female/Male",
         "age": "01/12/2016 and 24/12/2016",
@@ -313,6 +286,15 @@
         "description": "Mix",
         "image" : "pitu",
         "slides": ["pitu", "pitu2"],
+        "adopted": false
+    },{
+        "name": "Dona",
+        "gender": "Female",
+        "age": "-",
+        "size": "Medium",
+        "description": "Bodeguero",
+        "image" : "dona",
+        "slides": ["dona","dona2","dona3","dona4"],
         "adopted": false
     }
     

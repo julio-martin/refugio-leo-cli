@@ -6,7 +6,7 @@
         "size": "Medium",
         "description": "Podenco. All vaccines up to date. She is the grandmother of 'el Refugio de Leo', ¿could you give her a warm home to spend her last years? :)",
         "image" : "olivera",
-        "slides": ["olivera","olivera2"],
+        "slides": ["olivera"],
         "adopted": true
     },{
         "name": "Aimé",
@@ -15,7 +15,7 @@
         "size": "Medium",
         "description": "Good behavior with dogs and children. Neutered with all vaccines up to date.",
         "image" : "aime",
-        "slides": ["aime","aime2","aime3"],
+        "slides": ["aime"],
         "adopted": true
     },{
         "name": "Arón",
@@ -69,8 +69,35 @@
         "size": "Large",
         "description": "Neutered with all vaccines up to date.",
         "image" : "arianne",
-        "slides": ["arianne3","arianne","arianne2"],
+        "slides": ["arianne3"],
         "adopted": true
+    },{
+        "name": "Hope",
+        "gender": "Female",
+        "age": "01/01/2013",
+        "size": "Medium",
+        "description": "She has just had several puppies and she is in a home shelter.",
+        "image" : "hope",
+        "slides": ["hope"],
+        "adopted": false
+    },{
+        "name": "Fito",
+        "gender": "Male",
+        "age": "01/05/2016",
+        "size": "Large",
+        "description": "Cross of galgo. About 12kg. Good behavior, very calm and affectionate.",
+        "image" : "fito",
+        "slides": ["fito"],
+        "adopted": false
+    },{
+        "name": "Lassie",
+        "gender": "Female",
+        "age": "01/06/2016",
+        "size": "Medium",
+        "description": "Collie. Very good character like a puppy",
+        "image" : "lassie",
+        "slides": ["lassie"],
+        "adopted": false
     }
     
 ]
