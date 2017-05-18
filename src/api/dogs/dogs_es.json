@@ -296,6 +296,15 @@
         "image" : "dona",
         "slides": ["dona","dona2","dona3","dona4"],
         "adopted": false
+    },{
+        "name": "Mimi",
+        "gender": "Hembra",
+        "age": "-",
+        "size": "Mediano",
+        "description": "-",
+        "image" : "mimi",
+        "slides": ["mimi","mimi2","mimi3"],
+        "adopted": false
     }
     
 ]
