@@ -299,9 +299,9 @@
     },{
         "name": "Mimi",
         "gender": "Hembra",
-        "age": "-",
+        "age": "01/02/2017",
         "size": "Mediano",
-        "description": "-",
+        "description": "Es una perrita que fue entregada en Don Animal. Justo la pude coger antes de que entrase. Ha crecido con los podenquitos. Es juguetona..cariñosa y muy peque..va ser pequeñita.",
         "image" : "mimi",
         "slides": ["mimi","mimi2","mimi3"],
         "adopted": false

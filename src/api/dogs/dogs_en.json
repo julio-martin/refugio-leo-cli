@@ -299,9 +299,9 @@
     },{
         "name": "Mimi",
         "gender": "Female",
-        "age": "-",
+        "age": "01/02/2017",
         "size": "Medium",
-        "description": "-",
+        "description": "She is a dog who was left in Don Animal. We´ve just could rescue her before enter. She grew with our little podencos. She is very playful and affectionate.",
         "image" : "mimi",
         "slides": ["mimi","mimi2","mimi3"],
         "adopted": false
